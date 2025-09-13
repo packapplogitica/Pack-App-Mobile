@@ -1,0 +1,201 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "name": "Información General sobre PackApp",
+      "description": "Esta categoría presenta una introducción a la plataforma PackApp, sus objetivos y los tipos de servicios que ofrece. Aquí se resuelven dudas sobre el uso básico y el alcance de la plataforma.",
+      "subarticles": [
+        {
+          "id": 1,
+          "name": "¿Qué es PackApp?",
+          "faqs": [
+            {
+              "faq": "¿Qué es PackApp?",
+              "response": "PackApp es una plataforma online que conecta a usuarios con transportistas independientes, quienes compiten por ofrecer el mejor precio y servicio para envíos locales, nacionales e internacionales. Encuentra la solución más flexible y económica para tus necesidades."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Para enviar un paquete",
+          "faqs": [
+            {
+              "faq": "¿Cómo usar la plataforma?",
+              "response": "1. Registrate en nuestra web o app. 2. Ingresá los datos de tu paquete (dimensiones, peso, origen y destino). 3. Seleccioná el tipo de envío que deseas (estándar, urgente, etc.). 4. Eligí un transportista de la lista de opciones disponibles. 5. Pagá el envío de forma segura online. 6. Imprimí la etiqueta de envío y adjuntala al paquete. 7. Entregá el paquete al transportista en el lugar y fecha acordados."
+            },
+            {
+              "faq": "Para ser transportista",
+              "response": "1. Registrate en nuestra web o app. 2. Completá tu perfil con información sobre tu vehículo y disponibilidad. 3. Ofertá los envíos que se encuentran en tu ruta. 4. Recogé el paquete en el lugar y fecha acordados. 5. Transportá el paquete de forma segura y responsable. 6. Entregá el paquete al destinatario en el plazo establecido."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Costos y tiempos",
+          "faqs": [
+            {
+              "faq": "¿Cuánto cuesta enviar un paquete?",
+              "response": "¡Vos eligís el precio! El costo de enviar un paquete con PackApp varía según el tamaño, peso, distancia y tipo de envío. Los transportistas compiten por tu envío, ofreciéndote diferentes opciones para que elijas la mejor. Para tu comodidad, te sugerimos un precio de mercado como referencia."
+            },
+            {
+              "faq": "¿Cuánto tiempo tarda en llegar un paquete a destino?",
+              "response": "¡Vos eligís la velocidad!  Cada transportista te ofrece diferentes opciones de entrega con tiempos de envío variables. Revisá las ofertas y seleccioná la que mejor se adapte a tus necesidades."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Artículos permitidos",
+          "faqs": [
+            {
+              "faq": "¿Qué puedo enviar?",
+              "response": "¡Enviá casi cualquier cosa! Desde documentos y ropa hasta muebles y electrodomésticos. Tené en cuenta que algunos artículos pueden estar prohibidos o restringidos, como sustancias peligrosas. Revisá las condiciones de cada transportista para conocer los límites y restricciones."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Envío y Seguimiento de Paquetes",
+      "description": "Aquí se detallan las preguntas relacionadas con los procesos de envío, seguimiento y comunicación con transportistas, así como aspectos importantes sobre programación de horarios y opciones adicionales.",
+      "subarticles": [
+        {
+          "id": 1,
+          "name": "Seguimiento del envío",
+          "faqs": [
+            {
+              "faq": "¿Cómo puedo rastrear mi paquete durante el envío?",
+              "response": "Rastrear tu paquete es muy sencillo. Te informaremos por correo electrónico sobre cada etapa del envío. Además, una vez que aceptes la oferta, tendrás acceso a los datos del transportista para que puedas comunicarte con él cuando lo necesites."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Tarifas y costos adicionales",
+          "faqs": [
+            {
+              "faq": "¿Existen tarifas adicionales aparte de la tarifa de envío base?",
+              "response": "En general, solo pagas la tarifa de envío base. Sin embargo, puede haber tarifas adicionales por servicios opcionales como seguros o manejos especiales. ¡No te preocupes! Te mostraremos todos los detalles antes de confirmar tu envío."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Programación de envíos",
+          "faqs": [
+            {
+              "faq": "¿Cómo programar recogidas, opciones de entrega y horarios?",
+              "response": "Podés acordar la recogida, entrega y horarios directamente con el transportista que elijas. Damos rienda suelta a la comunicación entre usuarios y transportistas para evitar malentendidos. Te sugerimos estar siempre conectado y respetar el tiempo pactado con la otra parte para una experiencia óptima."
+            },
+            {
+              "faq": "¿Qué sucede si no estoy disponible durante la entrega programada?",
+              "response": "¿Imprevistos? ¡No hay problema! Si no estás disponible en el momento de la entrega, contactá al transportista o a nuestro equipo de soporte para reprogramarla. ¡Siempre estamos para ayudarte!"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Resolución de problemas en la entrega",
+          "faqs": [
+            {
+              "faq": "¿Qué sucede si mi paquete no llega a tiempo o se pierde durante el envío?",
+              "response": "Tu paquete está en buenas manos. En el improbable caso de que se retrase o se pierda, contactanos de inmediato. Trabajaremos para resolver la situación y te ayudaremos con el proceso de reclamación. Contamos con políticas de reembolso para proteger tu envío."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Embalaje y Seguridad",
+      "description": "Esta sección aborda las mejores prácticas para embalar paquetes, servicios opcionales y precauciones para artículos delicados, garantizando la protección de los envíos.",
+      "subarticles": [
+        {
+          "id": 1,
+          "name": "Recomendaciones de embalaje",
+          "faqs": [
+            {
+              "faq": "¿Cuáles son las recomendaciones de embalaje para garantizar la seguridad de mi paquete durante el envío?",
+              "response": "Para que tu paquete viaje seguro,  utilizá cajas resistentes y materiales de protección como espuma o burbujas de aire. Envolvé cada artículo frágil individualmente y refuerza las esquinas de la caja. ¡Más vale prevenir que lamentar!"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Servicios opcionales",
+          "faqs": [
+            {
+              "faq": "¿Ofrecen servicios de embalaje profesional o debo empacar mi paquete por mi cuenta?",
+              "response": "Podés empacar tu paquete siguiendo nuestras recomendaciones, que encontrarás en nuestra página web. Si lo prefieres, consulta con el transportista si ofrece servicio de embalaje profesional por un costo adicional."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Artículos frágiles",
+          "faqs": [
+            {
+              "faq": "¿Qué debo hacer si mi paquete contiene artículos frágiles o delicados?",
+              "response": "¡Extremá las precauciones con los artículos frágiles! Utilizá materiales de embalaje como burbujas de aire o papel arrugado, y coloca etiquetas de 'frágil' en la caja. Asegurate de indicar que el paquete requiere un manejo cuidadoso."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Seguro de envío",
+          "faqs": [
+            {
+              "faq": "¿Ofrecen seguro de envío para proteger mis paquetes en caso de pérdida o daño?",
+              "response": "¡Por supuesto! Ofrecemos opciones de seguro para proteger tus paquetes ante cualquier imprevisto. Así, viajarás con total tranquilidad."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Reclamos y Soporte",
+      "description": "Si surge algún inconveniente con tu paquete, esta categoría detalla el proceso de reclamación y cómo la plataforma PackApp puede ayudarte.",
+      "subarticles": [
+        {
+          "id": 1,
+          "name": "Problemas durante el transporte",
+          "faqs": [
+            {
+              "faq": "¿Qué debo hacer si mi paquete llega dañado o se pierde durante el transporte?",
+              "response": "Si tu paquete llega dañado o se pierde, contáctanos de inmediato. Nuestro equipo de soporte iniciará una investigación y te ayudará con el proceso de reclamación para resolver la situación lo antes posible."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Pagos y Seguridad",
+      "description": "Aquí encontrarás toda la información sobre los métodos de pago aceptados y cómo se protege la información financiera de los usuarios durante las transacciones.",
+      "subarticles": [
+        {
+          "id": 1,
+          "name": "Métodos de pago",
+          "faqs": [
+            {
+              "faq": "¿Cuáles son los métodos de pago aceptados para el envío de paquetes?",
+              "response": "Para tu comodidad, el seguro del envío se puede pagar online con Mercado Pago. El costo del envío en sí se acuerda y se paga directamente al transportista. ¡Pronto podrás disfrutar de nuevas opciones de pago!"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Seguridad en los pagos",
+          "faqs": [
+            {
+              "faq": "¿Cómo se maneja la información de pago durante el proceso de envío?",
+              "response": "La seguridad de tu información es nuestra prioridad. Manejamos tus datos de pago con la máxima seguridad y en cumplimiento con los estándares de la industria. Utilizamos métodos de encriptación avanzados para proteger tu información financiera durante todas las transacciones."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

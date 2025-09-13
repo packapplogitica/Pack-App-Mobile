@@ -1,0 +1,29 @@
+.selectLabelTitle  {
+     font-size: 20px !important;
+     font-weight: 500;
+ }
+
+.selectInfo{
+     font-size: 12px !important;
+     color: #6D7276 !important;
+ }
+
+.container {
+    /* background-color: white;
+    border-radius: 8px; */
+    max-width: none;
+    width: 100%;
+    outline: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    box-shadow: none;
+    /* position: relative; */
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    padding: 0rem;
+}

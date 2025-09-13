@@ -1,0 +1,22 @@
+{
+    "termsAndConditions": [
+      {
+        "type": "paragraph",
+        "content": [
+          "Al utilizar nuestra aplicación, aceptas estos términos. Por favor, revisa nuestras políticas de privacidad ",
+          {
+            "type": "link",
+            "content": "aquí",
+            "href": "https://example.com"
+          },
+          ". Si tienes alguna pregunta, no dudes en ",
+          {
+            "type": "link",
+            "content": "contactarnos",
+            "href": "https://example.com/contact"
+          },
+          "."
+        ]
+      }
+    ]
+  }

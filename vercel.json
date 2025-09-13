@@ -1,0 +1,7 @@
+{
+    "functions": {
+      "src/pages/index.jsx": {
+        "maxDuration": 30
+      }
+    }
+  }

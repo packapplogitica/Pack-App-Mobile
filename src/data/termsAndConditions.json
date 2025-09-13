@@ -1,0 +1,2304 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "title": "1. Aspectos generales",
+            "content": [
+                {
+                    "id": 1,
+                    "type": "p",
+                    "text": [
+                        "El acceso al ámbito web identificado como www.packappweb.com (o el que en el futuro lo sustituyere), de propiedad de la firma BOSA SAS, así como los TÉRMINOS Y CONDICIONES de su uso y todo otro aspecto de la relación emergente entre el titular del dominio y los usuarios se regirán por el presente instrumento, salvo aspectos específicamente señalados como reglados por otra documentación expresamente identificada."
+                    ]
+                },
+                {
+                    "id": 2,
+                    "type": "p",
+                    "text": [
+                        "A los fines del presente contrato de adhesión, el dominio de internet www.packappweb.com en adelante podrá ser mencionado indistintamente como “el sitio web”, o “el ámbito web” o “el dominio web” con o sin el aditamento “packapp”. La firma, por su parte, podrá ser referida como BOSA SAS o “LA FIRMA” indistintamente. Packapp es una marca registrada de propiedad de BOSA SAS."
+                    ]
+                },
+                {
+                    "id": 3,
+                    "type": "p",
+                    "text": [
+                        "Las prestaciones y/o facilidades provistas por la plataforma se limitan a brindar un ámbito de posible encuentro y eventual pacto transaccional entre sus diversos usuarios y tanto el dominio como su titular y el nombre comercial o la razón social, son completamente ajenos a los acuerdos de voluntades que vinculen a los usuarios entre sí. Por tanto, no asumen ninguna responsabilidad por incumplimientos, retrasos o demoras ni por deterioros, pérdidas, daños de cualquier naturaleza y alcance o cualquiera otra situación sea del comitente o remitente o bien de EL TRANSPORTADOR."
+                    ]
+                },
+                {
+                    "id": 4,
+                    "type": "p",
+                    "text": [
+                        "En lo relativo a la fiscalidad del servicio ofrecido, cotizado y facturado por EL TRANSPORTISTA, la firma BOSA SAS se limitará a retener el pago que abone EL COMITENTE y posteriormente, una vez notificada fehacientemente en LA PLATAFORMA la efectiva entrega al destinatario de la cosa transportada, procederá a acreditar a EL TRANSPORTADOR el importe neto resultante de restar de su cotización aquellos conceptos de cuya tributación LA FIRMA resultare Agente de Retención. Respecto al pago en efectivo que le haga el comitente, requirente, despachante o recipiendario al transportista, este último deberá abonar en concepto de comisiones lo que www.packappweb.com o BOSA SAS determine e informe a través de sus medios de información."
+                    ]
+                },
+                {
+                    "id": 5,
+                    "type": "p",
+                    "text": [
+                        "Es de SUMA IMPORTANCIA aclarar que por el momento www.packappweb.com o BOSA SAS y hasta tanto no se haga público no existe comisión alguna por el uso del servicio que ofrece la plataforma."
+                    ]
+                },
+                {
+                    "id": 6,
+                    "type": "p",
+                    "text": [
+                        "El presente acto jurídico se celebra en la República Argentina, con sujeción al marco normativo argentino, sin prórroga de jurisdicción, en todo cuanto sea materia de orden público. Y en cuanto corresponda a derecho disponible, por la libre voluntad de las partes."
+                    ]
+                },
+                {
+                    "id": 7,
+                    "type": "p",
+                    "text": [
+                        "El ingreso en el sitio, la navegación por él y/o el uso de sus facilidades, es prueba bastante de la adhesión a las cláusulas contractuales predispuestas y a los Términos y Condiciones aquí previstos y a los que los complementaren, los cuales se publican y actualizan periódicamente en el sitio web www.packappweb.com y, por ello, se reputan conocidos por todos los usuarios y por quienes accedan al premencionado dominio."
+                    ]
+                }                
+            ]
+        },
+        {
+            "id": 2,
+            "title": "2. Descripción de las relaciones negociales",
+            "content": [
+                {
+                    "id": 1,
+                    "type": "p",
+                    "text": [
+                        "La firma BOSA SAS, a través de su dominio www.packappweb.com crea un ámbito virtual de interacción, denominado la plataforma, entre los siguientes tipos de usuarios: Por una parte, EL TRANSPORTADOR o TRANSPORTADORES PARTICULARES INDEPENDIENTES y, por la otra, PERSONAS DESEOSAS DE CONTRATAR LOS SERVICIOS de traslado de cosas que aquellos ofrezcan. A los efectos del presente instrumento, los primeros se denominarán indistintamente “LOS TRANSPORTADORES PARTICULARES INDEPENDIENETES” o bien “LOS TRANSPORTADORES” o “EL TRANSPORTADOR” o “EL TRANSPORTISTA” y los segundos, por su parte: “LOS COMITENTES” o “EL COMITENTE” o “EL REQUIRENTE”, indistintamente."
+                    ]
+                },
+                {
+                    "id": 2,
+                    "type": "st",
+                    "text": ["ROLES FUNCIONALES DE CADA TIPO DE USUARIO"]
+                },
+                {
+                    "id": 3,
+                    "type": "p",
+                    "text": [
+                        "LOS TRANSPORTADORES, al acceder a LA PLATAFORMA, seleccionarán aquellos pedidos de traslado de cosas que estén en condiciones de satisfacer y COTIZARÁN libremente su servicio para la eventualidad de que EL COMITENTE acepte las condiciones de precio, tiempo y plazo de entrega cotizados."
+                    ]
+                },
+                {
+                    "id": 4,
+                    "type": "p",
+                    "text": [
+                        "LOS CLIENTES, bajo su exclusiva responsabilidad y por su cuenta y riesgo, cargarán en LA PLATAFORMA la información mínima requerida relativa a la paquetería, cosas u objetos que pretendan hacer transportar y aguardarán a que un transportador le ofrezca una cotización."
+                    ]
+                },
+                {
+                    "id": 5,
+                    "type": "ol",
+                    "text": [
+                        "La información mínima requerida incluirá:",
+                        {
+                            "type": "ol",
+                            "content": [
+                                "1) Contenido declarado;",
+                                "2) Tamaño (medido en volumen);",
+                                "3) Peso (expresado en kg o bien en múltiplos o submúltiplos de esta unidad);",
+                                "4) Valor declarado de la carga (opcional).",
+                                "5) Seguro contratado (opcional).",
+                                "6) Fotografía de la cosa transportada. Por ejemplo fotografía de: un paquete, tazas, remeras, camisetas, etc."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "type": "p",
+                    "text": [
+                        "LA FIRMA, sea por su razón social o por su nombre comercial; EL DOMINIO www.packappweb.com y LA PLATAFORMA tanto como su denominación marcaria “packapp”, son absolutamente ajenos a las relaciones negociales entre LOS TRANSPORTADORES y LOS COMITENTES."
+                    ]
+                },
+                {
+                    "id": 7,
+                    "type": "p",
+                    "text": [
+                        "Las intervenciones de LA FIRMA, EL DOMINIO y LA PLATAFORMA, se circunscriben estrictamente a:"
+                    ]
+                },
+                {
+                    "id": 8,
+                    "type": "ol",
+                    "text": [
+                        {
+                            "type": "item",
+                            "content": [
+                                "1. Ofrecer un ámbito virtual (LA PLATAFORMA) de libre concurrencia entre oferentes de servicios de traslado de cosas (LOS TRANSPORTADORES) y demandantes de los servicios ofrecidos por aquellos (LOS COMITENTES)."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "content": [
+                                "2. Brindar, mediante desarrollos de software, facilidades para que LOS TRANSPORTADORES libremente coticen sus servicios a potenciales COMITENTES y para que éstos puedan elegir entre contratar o no el traslado de los bienes de su interés, según sus conveniencias de precio, tiempo y otros parámetros que decidan ponderar."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "content": [
+                                "3. BOSA SAS, el dominio web o PACKAPP no garantiza a cada COMITENTE el efectivo cumplimiento de lo pactado entre él y EL TRANSPORTADOR.  BOSA SAS ante una contingencia de incumplimiento retendrá el pago realizado por el comitente del importe del servicio cotizado por el prestador (EL TRANSPORTADOR) a EL COMITENTE. Una vez acreditada fehacientemente la entrega del objeto del contrato a EL DESTINATARIO, la firma (BOSA SAS) transferirá a EL TRANSPORTADOR el valor cotizado, neto de los conceptos estipulados en el contrato de acceso de EL TRANSPORTADOR a LA PLATAFORMA y servicios de ésta (CONTRATO CON TRANSPORTADORES). En caso de incumplimiento (total o parcial) por parte de EL TRANSPORTADOR, la firma (BOSA SAS) transferirá a EL COMITENTE, EN DEVOLUCIÓN, solo el importe que éste hubiere pagado para acreditar a su contraparte (EL TRANSPORTADOR) por el servicio finalmente frustrado o incumplido o malogrado.",
+                                "Se entenderá por “servicio malogrado” la no entrega de la cosa transportada por culpa y cargo del transportador."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "content": [
+                                "4. LA FIRMA (BOSA SAS), dada su completa ajenidad a la relación negocial entre EL TRANSPORTADOR y EL COMITENTE, no asume ninguna responsabilidad por eventuales reclamaciones de aquellos sujetos entre sí o de terceros. Por su parte, EL TRANSPORTADOR y EL COMITENTE se obligan a mantener indemne a LA FIRMA (BOSA SAS), al dominio web www.packappweb.com (y/o al que en el futuro lo sustituyere) y a LA PLATAFORMA ante cualquier contingencia contractual, legal, judicial, económica, financiera o de cualquiera otra naturaleza."
+                            ]
+                        }
+                    ]
+                }
+
+            ]
+        },
+        {
+            "id": 3,
+            "title": "TÍTULO I: TÉRMINOS Y CONDICIONES PARTICULARES",
+            "content": [
+                {
+                    "id": 1,
+                    "type": "st",
+                    "text": ["CONDICIONES DE USO DEL SITIO WEB"]
+                },
+                {
+                    "id": 2,
+                    "type": "sst",
+                    "text": ["1. Titular de la Página Web"]
+                },
+                {
+                    "id": 3,
+                    "type": "p",
+                    "text": [
+                        "El titular del dominio www.packappweb.com (en adelante, “el sitio web”) es, en un ciento por ciento, la firma BOSA SAS y toda actividad en este ámbito digital se regirá por las CONDICIONES DE USO y/o los TÉRMINOS Y CONDICIONES que BOSA SAS establezca y/o modifique."
+                    ]
+                },
+                {
+                    "id": 4,
+                    "type": "p",
+                    "text": [
+                        "Estas CONDICIONES DE USO y los TÉRMINOS Y CONDICIONES se aplicarán tanto a la actividad promocional y de suministro de información que se efectúa a través del pre-individualizado sitio web como a la prestación de los servicios ofrecidos en él (o a través de la plataforma que en su entorno funcione)."
+                    ]
+                },
+                {
+                    "id": 5,
+                    "type": "p",
+                    "text": [
+                        "Esto significa que tales CONDICIONES DE USO y los TÉRMINOS Y CONDICIONES regirán en todo momento, tanto para la simple navegación por el sitio web como para la contratación de servicios en el marco jurídico y de funcionalidades tecnológicas que el sitio ofrezca."
+                    ]
+                },
+                {
+                    "id": 6,
+                    "type": "p",
+                    "text": [
+                        "Adicionalmente, estas últimas actividades se someterán también a las CONDICIONES GENERALES DE CONTRATACIÓN aplicables y a las CONDICIONES PARTICULARES que, en su caso, pudieran existir. El emisor de estas normas podrá actualizarlas periódicamente sin previo aviso. Todas se reputarán conocidas, tendrán plena vigencia y serán aplicables (excepto a las relaciones convencionales en curso de ejecución) desde el día siguiente a la fecha de su difusión por el sitio web."
+                    ]
+                },
+                {
+                    "id": 7,
+                    "type": "sst",
+                    "text": ["2. Obligaciones de los Usuarios"]
+                },
+                {
+                    "id": 8,
+                    "type": "p",
+                    "text": [
+                        "Los Usuarios se comprometen a hacer un uso leal y diligente del sitio web, con total sujeción al orden jurídico de la República Argentina, a su sistema legal y a sus normas reglamentarias vigentes, a las buenas costumbres, a las presentes CONDICIONES DE USO y, en su caso, a cualquier otro Código o Política que BOSA SAS establezca y/o modifique para esta unidad de negocios o para otra de su actividad societaria y la declare extensible en todo o en parte a todo o parte de EL DOMINIO www.packappweb.com."
+                    ]
+                },
+                {
+                    "id": 9,
+                    "type": "p",
+                    "text": [
+                        "En el caso de registrarse, cada USUARIO se obliga a proporcionar verazmente los datos DECLARADOS y a mantenerlos actualizados sin necesidad de requerimiento alguno dentro de las veinticuatro horas de acaecida cualquier novedad."
+                    ]
+                },
+                {
+                    "id": 10,
+                    "type": "p",
+                    "text": [
+                        "En particular el Usuario se obliga a proporcionar y consignar fidedignamente, en su caso, el número de identificación fiscal a efectos del tratamiento en Argentina del Impuesto al Valor Agregado (IVA) y/o del “sistema de intercambio de información sobre el IVA” denominado (IVA / VIES) del establecimiento desde el que se contraten los servicios de BOSA SAS y/o EL DOMINIO www.packappweb.com y/o LA PLATAFORMA Packapp."
+                    ]
+                },
+                {
+                    "id": 11,
+                    "type": "p",
+                    "text": [
+                        "En todas las circunstancias, mediante la inclusión de este dato en el proceso de registro de EL USUARIO, se presumirá por parte de BOSA SAS y/o EL DOMINIO www.packappweb.com y/o LA PLATAFORMA Packapp que todas las contrataciones de servicios que se realicen desde la cuenta de EL USUARIO así creada procederán del establecimiento al que corresponda el identificador NIF-IVA consignado."
+                    ]
+                },
+                {
+                    "id": 11,
+                    "type": "p",
+                    "text": [
+                        "En el caso de registrarse, cada USUARIO deberá -inexcusablemente- custodiar adecuadamente la “Contraseña” que le sea facilitada por BOSA SAS o EL DOMINIO o LA PLATAFORMA, así como cualesquier otros elementos identificadores y habilitadores para el acceso a los servicios."
+                    ]
+                },
+                {
+                    "id": 12,
+                    "type": "p",
+                    "text": [
+                        "Cada USUARIO se compromete a no ceder su uso ni a permitir el acceso a ellos de terceros y asume toda la responsabilidad por los daños y perjuicios que pudieran derivarse de un descuido o de un uso indebido de los mismos. Igualmente, el USUARIO se compromete a comunicar a www.packappweb.com, con la mayor rapidez, su pérdida o extravío o hurto o robo así como cualquier riesgo de acceso a la “Contraseña” por un tercero."
+                    ]
+                },
+                {
+                    "id": 13,
+                    "type": "p",
+                    "text": [
+                        "LOS USUARIOS se obligan a respetar las leyes aplicables y los derechos de terceros al utilizar los contenidos del Sitio Web. Asimismo, LOS USUARIOS deberán usar el Sitio Web de forma diligente, correcta y lícita y, en particular, a título meramente enunciativo y no limitativo, se abstienen de:"
+                    ]
+                },
+                {
+                    "id": 14,
+                    "type": "p",
+                    "text": [
+                        "(a) utilizar el Sitio Web de forma, con fines o efectos contrarios a la ley, a la moral y a las buenas costumbres generalmente aceptadas o al orden público;"
+                    ]
+                },
+                {
+                    "id": 15,
+                    "type": "p",
+                    "text": [
+                        "(b) reproducir o copiar, distribuir, permitir el acceso del público a través de cualquier modalidad de comunicación pública, transformar o modificar cualquier aspecto del Sitio Web."
+                    ]
+                },
+                {
+                    "id": 16,
+                    "type": "p",
+                    "text": [
+                        "(c) realizar cualquier acto -tentado o consumado- que pueda ser considerado una vulneración de cualesquier derechos personales o personalísimos o de propiedad intelectual o industrial pertenecientes a BOSA SAS o a EL DOMINIO www.packappweb.com o a LA PLATAFORMA o a terceros;"
+                    ]
+                },
+                {
+                    "id": 17,
+                    "type": "p",
+                    "text": [
+                        "(d) emplear la información de cualquier clase obtenida a través del sitio web para remitir publicidad, comunicaciones con fines de venta directa o con cualquier otra clase de finalidad comercial, mensajes no solicitados dirigidos a una pluralidad de personas con independencia de su finalidad, así como de comercializar o divulgar de cualquier modo dicha información;"
+                    ]
+                },
+                {
+                    "id": 18,
+                    "type": "p",
+                    "text": [
+                        "(e) utilizar identidades falsas o suplantar la identidad de otros en la utilización del sitio web o en la utilización de cualquiera de los servicios del Sitio Web, incluyendo la utilización en su caso de contraseñas o claves de acceso de terceros o de cualquiera otra forma;"
+                    ]
+                },
+                {
+                    "id": 19,
+                    "type": "p",
+                    "text": [
+                        "(f) traficar y/o usufructuar de cualquier modo datos y/o información, cualesquiera fuesen éstos, de BOSA SAS o de EL DOMINIO o de LA PLATAFORMA que se haya conocido en ocasión de interactuar con las nombradas o como consecuencia de un normal uso de los servicios y/o facilidades brindadas por ellas."
+                    ]
+                },
+                {
+                    "id": 20,
+                    "type": "p",
+                    "text": [
+                        "Los Usuarios del Sitio Web deberán cumplir con las presentes CONDICIONES DE USO y con el ordenamiento jurídico vigente. BOSA SAS y/o EL DOMINIO y/o LA PLATAFORMA se reservan la facultad de cancelar o restringir (sin preaviso, a fin de hacer cesar la conducta indebida), el acceso al sitio web a determinados USUARIOS, en caso de observar cualesquiera conductas que a juicio de las nombradas resulten contrarias al orden jurídico, al sistema legal y/o a sus normas complementarias y/o reglamentarias y/o a estas CONDICIONES DE USO, establecidas por el emisor y afecten o puedan afectar al buen funcionamiento, imagen, credibilidad y/o prestigio de BOSA SAS y/o EL DOMINIO y/o LA PLATAFORMA y/o de sus colaboradores. Asimismo, se podrá accionar contra los USUARIOS y/o contra cualesquier otros responsables por los daños y perjuicios derivados del mal uso o del uso inadecuado o indebido o negligente o imprudente o con impericia o con dolo del sitio web."
+                    ]
+                },
+                {
+                    "id": 21,
+                    "type": "sst",
+                    "text": [
+                        "3. Exención de responsabilidad por el funcionamiento de la Página Web"
+                    ]
+                },
+                {
+                    "id": 22,
+                    "type": "ssst",
+                    "text": [
+                        "3.1. Por los contenidos facilitados por Usuarios"
+                    ]
+                },
+                {
+                    "id": 23,
+                    "type": "p",
+                    "text": [
+                        "Si alguno de los contenidos, archivos, informaciones, publicidad, opiniones, conceptos e imágenes alojados en el sitio web fueren contrarios al orden jurídico o al sistema legal vigente en la República Argentina, o a la moral, la buena fe o al orden público o contuvieren cualquier tipo de virus informático o rutina de software similar o amenaza similar -real o potencial- se procederá a su inmediato retiro, sin perjuicio de las acciones que correspondan."
+                    ]
+                },
+                {
+                    "id": 24,
+                    "type": "p",
+                    "text": [
+                        "BOSA SAS ni EL DOMINIO ni EL SITIO WEB www.packappweb.com ni LA PLATAFORMA no asumen ninguna responsabilidad por los contenidos, archivos, informaciones, datos, publicidad, opiniones, conceptos o imágenes que no dependan del Sitio Web, ni sean gestionados por ellos. Tampoco asumirá ninguna responsabilidad, ya sea directa o indirecta, derivada del mal uso del Sitio Web o sus contenidos por parte del Usuario asumiendo éste, en todo caso, bajo su exclusiva responsabilidad, las consecuencias, daños o acciones que pudieran derivarse de su acceso o uso del sitio web o de los contenidos alojados, así como de su reproducción o comunicación."
+                    ]
+                },
+                {
+                    "id": 25,
+                    "type": "ssst",
+                    "text": [
+                        "3.2. Por los contenidos facilitados a los Usuarios a través del Sitio"
+                    ]
+                },
+                {
+                    "id": 26,
+                    "type": "p",
+                    "text": [
+                        "En cualquier caso, www.packappweb.com no se hace responsable de los contenidos, archivos, informaciones, publicidad, opiniones, conceptos e imágenes que no dependan del sitio web, ni sean gestionados por BOSA SAS o EL DOMINIO o LA PLATAFORMA. Asimismo, no se responsabiliza del mal uso que se realice de los contenidos del sitio web, siendo exclusiva responsabilidad de la persona que acceda a ellos o los utilice."
+                    ]
+                },
+                {
+                    "id": 27,
+                    "type": "ssst",
+                    "text": [
+                        "3.3. Por los contenidos alojados en páginas accesibles desde el Sitio Web"
+                    ]
+                },
+                {
+                    "id": 28,
+                    "type": "p",
+                    "text": [
+                        "BOSA SAS ni EL DOMINIO ni EL SITIO WEB ni LA PLATAFORMA no se hace responsable de ninguno de los contenidos, archivos, informaciones, publicidad, opiniones, conceptos e imágenes que se emitan, publiquen o distribuyan directa e indirectamente a través cualquier web interconectada a la que se acceda a través del sitio web por medio de links, o enlaces o formas de redireccionamiento o cualquiera de los servicios que se vinculen o relacionen con este sitio interconectado."
+                    ]
+                },
+                {
+                    "id": 29,
+                    "type": "p",
+                    "text": [
+                        "Igualmente, BOSA SAS y EL DOMINIO y EL SITIO WEB y LA PLATAFORMA excluyen su responsabilidad por los servicios, bienes o productos o servicios que puedan ser adquiridos o contratados a terceros a través de un acceso en el sitio web de www.packappweb.com o el que lo sustituyere, especialmente en aquellos casos en los que el proceso de contratación se realiza directamente en la página web del tercero y aunque aparezcan distintivos o elementos que permitan dividir la pantalla en varias áreas independientes unas de otras, y por tanto con contenidos distintos, aunque puedan estar (o no) relacionados -y se conocen bajo la denominación técnica de “frame”- con los elementos gráficos de la página web o cualquiera forma de trabajo de gestión de marca conocida entre los especialistas como “branding”."
+                    ]
+                },
+                {
+                    "id": 30,
+                    "type": "ssst",
+                    "text": [
+                        "3.4. Por el funcionamiento del Sitio Web"
+                    ]
+                },
+                {
+                    "id": 31,
+                    "type": "p",
+                    "text": [
+                        "EL SITIO WEB y LA PLATAFORMA en él incluida o a él conectada, prestan sus servicios y contenidos de forma continuada empleando todos los medios técnicos a su alcance para realizar sus prestaciones de forma satisfactoria. La firma propietaria, BOSA SAS, compromete sus mejores esfuerzos en este sentido."
+                    ]
+                },
+                {
+                    "id": 32,
+                    "type": "p",
+                    "text": [
+                        "Cuando BOSA SAS lo considere conveniente, EL SITIO WEB y/o el titular de EL DOMINIO y/o LA PLATAFORMA podrán realizar correcciones, actualizaciones, mejoras o modificaciones, que no alteren los contratos en curso."
+                    ]
+                },
+                {
+                    "id": 33,
+                    "type": "p",
+                    "text": [
+                        "Tales novedades podrán incidir en la información relativa a: el sitio web, los servicios o los contenidos, incluidas las adecuaciones a cambios en el marco normativo aplicable. Adquirirá vigencia desde el día siguiente al de su publicación en el ámbito web de la firma y regirán para todas las relaciones que surjan desde esa fecha sin que ello dé lugar, ni derecho a ninguna reclamación o indemnización, ni implique reconocimiento de responsabilidad alguna en cabeza del emisor."
+                    ]
+                },
+                {
+                    "id": 34,
+                    "type": "p",
+                    "text": [
+                        "BOSA SAS ni EL SITIO WEB ni LA PLATAFORMA no se hace responsable por ninguna consecuencia (incluidos los daños y perjuicios de toda naturaleza) que pudiera derivarse del funcionamiento o de la disponibilidad y continuidad técnica del funcionamiento del Sitio Web. En cualquier caso, las nombradas llevarán a cabo todas las actuaciones necesarias para restablecer sus servicios en caso de fallo técnico."
+                    ]
+                },
+                {
+                    "id": 35,
+                    "type": "p",
+                    "text": [
+                        "Cada USUARIO es el único y exclusivo responsable de sus claves de identificación y acceso a los ámbitos web habilitados por BOSA SAS a EL SITIO WEB y/o a LA PLATAFORMA, sus respectivos contenidos y servicios, funcionalidades y, eventualmente, otras facilidades. Dicha identificación se compone del código secreto o clave y del nombre del Usuario."
+                    ]
+                },
+                {
+                    "id": 36,
+                    "type": "p",
+                    "text": [
+                        "BOSA SAS y/o EL SITIO WEB y/o LA PLATAFORMA no asumen ninguna responsabilidad por el uso indebido de las claves de los usuarios para el acceso a los contenidos o servicios del Sitio Web que los requieran y de las consecuencias derivadas de cualquier naturaleza del mal uso por los usuarios, su pérdida u olvido, y su uso indebido por terceros no autorizados."
+                    ]
+                },
+                {
+                    "id": 37,
+                    "type": "p",
+                    "text": [
+                        "BOSA SAS y/o EL SITIO WEB y/o LA PLATAFORMA no asumen ninguna responsabilidad por el uso indebido de las claves de los usuarios para el acceso a los contenidos o servicios del Sitio Web que los requieran y de las consecuencias derivadas de cualquier naturaleza del mal uso por los usuarios, su pérdida u olvido, y su uso indebido por terceros no autorizados."
+                    ]
+                },
+                {
+                    "id": 38,
+                    "type": "sst",
+                    "text": ["4. Propiedad intelectual e industrial"]
+                },
+                {
+                    "id": 39,
+                    "type": "p",
+                    "text": [
+                        "Los contenidos y, en especial, diseños, Íconos, software, modelos, ilustraciones, bandas sonoras, textos, logotipos, marcas o cualesquiera otros signos susceptibles de utilización industrial y comercial que integran el Sitio Web están sujetos a derechos de propiedad intelectual e industrial y son titularidad de BOSA SAS y/o de terceros titulares de los mismos que han autorizado debidamente su inclusión en el Sitio Web."
+                    ]
+                },
+                {
+                    "id": 40,
+                    "type": "p",
+                    "text": [
+                        "En ningún caso se entenderá que se concede licencia alguna o se efectúa renuncia, transmisión, cesión total o parcial de dichos derechos ni se confiere ningún derecho ni expectativa de derecho, y en especial, de alteración, explotación, reproducción, distribución o comunicación pública y puesta a disposición sobre dichos contenidos sin la previa autorización expresa de BOSA SAS y/o EL SITIO WEB y/o LA PLATAFORMA o de los titulares correspondientes."
+                    ]
+                },
+                {
+                    "id": 41,
+                    "type": "sst",
+                    "text": [
+                        "5. Modificación de las Condiciones de Uso"
+                    ]
+                },
+                {
+                    "id": 42,
+                    "type": "p",
+                    "text": [
+                        "BOSA SAS se reserva el derecho a modificar, actualizar o revisar las presentes CONDICIONES GENERALES DE CONTRATACIÓN por razones legales, por motivos técnicos o por cambios en la prestación del servicio o en el acceso a los contenidos o al sitio web, así como realizar adecuaciones a CÓDIGOS DE CONDUCTA o a ESTÁNDARES DE BUENAS PRÁCTICAS que sean aplicables o, en su caso, por decisiones de Política Corporativa o rediseño de estrategias y de sus cursos operacionales subordinados.  LOS USUARIOS entrarán en conocimiento y quedarán obligados a las nuevas condiciones al día siguiente de notificadas éstas en el ámbito web independientemente de que activaren o no sus respectivos accesos."
+                    ]
+                },
+                {
+                    "id": 43,
+                    "type": "sst",
+                    "text": [
+                        "6. Legislación Aplicable"
+                    ]
+                },
+                {
+                    "id": 44,
+                    "type": "p",
+                    "text": [
+                        "Estos TÉRMINOS Y CONDICIONES y las presentes CONDICIONES DE USO se emiten bajo la Ley Argentina, SIN ADMITIR PRÓRROGA DE JURISDICCIÓN alguna y, en el caso de cualquier diferencia, se someten a los Tribunales del lugar de celebración del presente acto jurídico, es decir: la ciudad de Resistencia, provincia del Chaco, donde -por acuerdo de los contratantes- se produce la adhesión a sus cláusulas predispuestas."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "TÍTULO II: CONDICIONES GENERALES DE LOS SERVICIOS DE PACKAPP",
+            "content": [
+                {
+                    "id": 1,
+                    "type": "ol",
+                    "text": [
+                        {
+                            "type": "ol",
+                            "content": [
+                                "1. Definiciones",
+                                "2. Información Previa a la Contratación",
+                                "3. Proceso de Contratación",
+                                "4. Términos y Condiciones de los TRANSPORTADORES",
+                                "5. Obligaciones y Derechos de www.packappweb.com",
+                                "6. Obligaciones del Usuario",
+                                "7. Artículos Prohibidos y/o dañados",
+                                "8. Servicio Contra-Reembolso",
+                                "9. Transporte Internacional y Aduanas",
+                                "10. Cargos Adicionales al Servicio",
+                                "11. Formas de Pago",
+                                "12. Gestión de Reclamaciones",
+                                "13. Cancelación de Pedidos",
+                                "14. Derecho de ARREPENTIMIENTO",
+                                "15. Exoneración de responsabilidad",
+                                "16. Restricción de Acceso a los Servicios",
+                                "17. Régimen Jurídico Supletorio",
+                                "18. Legislación Aplicable",
+                                "19. Divisibilidad de Cláusulas"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "type": "st",
+                    "text": [
+                        "1. Definiciones"
+                    ]
+                },
+                {
+                    "id": 3,
+                    "type": "p",
+                    "text": [
+                        "A continuación, se definen algunos conceptos que se mencionan en las CONDICIONES GENERALES DE CONTRATACIÓN de los servicios de www.packappweb.com (en adelante, las CONDICIONES GENERALES o CONDICIONES GENERALES DE CONTRATACIÓN):"
+                    ]
+                },
+                {
+                    "id": 4,
+                    "type": "p",
+                    "text": [
+                        "TRANSPORTADOR: USUARIO de los servicios y/o funcionalidades y/o facilidades puestas a disposición por BOSA SAS bajo EL DOMINIO de internet www.packappweb.com (de su exclusiva propiedad) y a través de LA PLATAFORMA, que realiza ofertas para trasladar cosas a requerimiento de otros USUARIOS denominados COMITENTES o REQUIRENTES, según éstos acepten o no el precio cotizado por EL TRANSPORTADOR, el tiempo de entrega a EL DESTINATARIO, y otros parámetros que decidiere ponderar. De lo que antecede surge que el traslado de las cosas solicitado a EL TRANSPORTADOR por EL COMITENTE podrá efectivizarse o no."
+                    ]
+                },
+                {
+                    "id": 5,
+                    "type": "p",
+                    "text": [
+                        "ÁREAS REMOTAS: aquellas localidades con una población inferior a 10.000 habitantes censados, y aquellas que, con independencia de la densidad de su población, se encuentren a más de 50 kilómetros del domicilio de EL TRANSPORTADOR."
+                    ]
+                },
+                {
+                    "id": 6,
+                    "type": "p",
+                    "text": [
+                        "PORTAL DE AYUDA o SOPORTE: canal de comunicación de BOSA SAS o DEL SITIO WEB o con LA PLATAFORMA para consulta, gestión o reclamación de servicio."
+                    ]
+                },
+                {
+                    "id": 7,
+                    "type": "p",
+                    "text": [
+                        "PUERTA A PUERTA: servicio por el cual el transportador se compromete a retirar la cosa transportada por el domicilio de origen y entregarla en el domicilio de destino señalada por el COMITENTE en la plataforma web www.packapweb.com."
+                    ]
+                },
+                {
+                    "id": 8,
+                    "type": "p",
+                    "text": [
+                        "PUNTO DE ENCUENTRO: sistema que refiere para la entrega o recogida del paquete/sobre un punto de encuentro acordado entre el transportador y el comitente, remitente o destinatario. Este punto de encuentro puede coordinarse tanto para la recogida del paquete como para la entrega del mismo. Dependerá de las condiciones de la oferta que haga EL TRANSPORTISTA y de la aceptación por parte de EL COMITENTE."
+                    ]
+                },
+                {
+                    "id": 9,
+                    "type": "p",
+                    "text": [
+                        "DESTINATARIO: Persona física o jurídica que recibe lo transportado a través de un servicio de transporte contratado en LA PLATAFORMA del dominio www.packappweb.com, de propiedad de BOSA SAS."
+                    ]
+                },
+                {
+                    "id": 10,
+                    "type": "p",
+                    "text": [
+                        "ENVÍO: Partida de uno o más bultos, con recogida en un mismo origen y cuya entrega se realiza en un mismo destino, en la misma fecha y hora, y con el mismo TRANSPORTADOR."
+                    ]
+                },
+                {
+                    "id": 11,
+                    "type": "p",
+                    "text": [
+                        "ETIQUETA DE ENVÍO Y HOJA DE DIRECCIÓN: La documentación que hay que adjuntar a lo transportado. En ella se contienen los datos del remitente, del destinatario en cuanto a NOMBRE, APELLIDO, DOMICILIO, CIUDAD, PROVINCIA, CELULAR, ID DEL PAQUETE, esta hoja debe estar debidamente pegada en la cosa transportada. Es de exclusiva responsabilidad de EL COMITENTE la entrega de la ETIQUETA DE ENVÍO de corroborar los datos allí expresados de EL TRANSPORTADOR."
+                    ]
+                },
+                {
+                    "id": 12,
+                    "type": "p",
+                    "text": [
+                        "LUGAR DE ORIGEN: Se refiere a la dirección en la que lo transportado debe ser recogido por EL TRANSPORTADOR. No es estrictamente necesario que el lugar de entrega o retiro coincida con el domicilio de destino u origen respectivamente que haya sido especificado en la página web www.packappweb.com por el COMITENTE, ya que se pudo haber optado por la metodología de entrega PUNTO DE ENCUENTRO, donde EL TRANSPORTADOR Y EL COMITENTE resuelven de forma privada donde van a encontrarse para la entrega o retiro de la cosa, paquete, sobre. Es responsabilidad del TRANSPORTISTA corroborar que los datos consignados en la ETIQUETA DE ENVÍO coinciden con LA COSA TRANSPORTADA y con los datos consignados por el comitente en la plataforma."
+                    ]
+                },
+                {
+                    "id": 13,
+                    "type": "p",
+                    "text": [
+                        "LUGAR DE ENTREGA: Se refiere a la dirección en la que EL TRANSPORTADOR debe entregar la COSA TRANSPORTADA. No es estrictamente necesario que el lugar de entrega o retiro coincida con el domicilio de destino u origen respectivamente que haya sido especificado en la página web www.packappweb.com por el COMITENTE, ya que se pudo haber optado por la metodología de entrega PUNTO DE ENCUENTRO, donde EL TRANSPORTADOR Y EL COMITENTE resuelven de forma privada donde van a encontrarse para la entrega o retiro de la cosa, paquete, sobre."
+                    ]
+                },
+                {
+                    "id": 14,
+                    "type": "p",
+                    "text": [
+                        "MERCANCÍA: Artículo transportado. A los efectos del presente instrumento se denomina también “lo transportado” o bien “la cosa transportada”, indistintamente."
+                    ]
+                },
+                {
+                    "id": 15,
+                    "type": "p",
+                    "text": [
+                        "REMITENTE: USUARIO (persona humana o jurídica) que entrega la Mercancía a EL TRANSPORTADOR en el momento de la recogida para su envío."
+                    ]
+                },
+                {
+                    "id": 14,
+                    "type": "p",
+                    "text": [
+                        "DESTINATARIO: USUARIO (persona humana o jurídica) que recibe la Mercancía de EL TRANSPORTADOR en el momento y lugar de la entrega de lo transportado."
+                    ]
+                },
+                {
+                    "id": 15,
+                    "type": "p",
+                    "text": [
+                        "SITIO WEB: www.packappweb.com. Denominado también indistintamente EL DOMINIO y, ocasionalmente, LA PLATAFORMA. Esta última denominación refiere a un desarrollo de programación con facilidades operativas para interacción entre USUARIOS, tales como (EL COMITENTE, EL REMITENTE, EL DESTINATARIO y EL TRANSPORTADOR). Es una propiedad exclusiva de BOSA SAS."
+                    ]
+                },
+                {
+                    "id": 16,
+                    "type": "p",
+                    "text": [
+                        "USUARIO: es toda persona registrada en www.packappweb.com (JURÍDICA O HUMANA) que utiliza LA PLATAFORMA, EL DOMINIO www.packappweb.com en cualquiera de la siguientes categorías: COMITENTE, REMITENTE, DESTINATARIO, TRANSPORTADOR."
+                    ]
+                },
+                {
+                    "id": 17,
+                    "type": "p",
+                    "text": [
+                        "USUARIO INVITADO: persona humana o jurídica que a través de la contratación de un servicio de transporte a través del sitio web www.packappweb.com cumpla la función de un remitente o destinatario."
+                    ]
+                },
+                {
+                    "id": 18,
+                    "type": "p",
+                    "text": [
+                        "PALABRA SECRETA: palabra que EL SISTEMA asigna aleatoriamente a EL COMITENTE para que este se la brinde al EL DESTINATARIO. Esta palabra tiene el fin de otorgar seguridad de que EL TRANSPORTADOR entrega la COSA TRANSPORTADA a la persona correcta. SIN LA PALABRA SECRETA EL TRANSPORTADOR NO DEBERÁ ENTREGAR la COSA TRANSPORTADA debido a que www.packappweb.com exige esa palabra para confirmar la entrega del paquete. Es de exclusiva responsabilidad de EL COMITENTE la custodia de la PALABRA SECRETA y de exclusiva responsabilidad del TRANSPORTADOR aportarla al sitio web para confirmar la entrega."
+                    ]
+                },
+                {
+                    "id": 19,
+                    "type": "st",
+                    "text": [
+                        "2. Información previa a la contratación"
+                    ]
+                },
+                {
+                    "id": 20,
+                    "type": "p",
+                    "text": [
+                        "Las presentes CONDICIONES GENERALES han sido elaboradas de conformidad con lo establecido en la normativa vigente reguladora de los Servicios de la Sociedad de la Información y de comercio electrónico, así como sobre Condiciones Generales de Contratación, y General para la Defensa de los Consumidores y Usuarios y cuantas disposiciones legales resulten de aplicación en la República Argentina, lugar de celebración del presente contrato."
+                    ]
+                },
+                {
+                    "id": 20,
+                    "type": "p",
+                    "text": [
+                        "La utilización y/o la contratación de cualquiera de los servicios de BOSA SAS o de los ofrecidos a través de EL DOMINIO www.packappweb.com y/o LA PLATAFORMA, suponen la aceptación como USUARIO, sin reservas de ninguna clase, de todas y cada una de las estipulaciones de estos TÉRMINOS Y CONDICIONES, de las CONDICIONES GENERALES, de las CONDICIONES DE USO DEL SITIO WEB, así como de las CONDICIONES PARTICULARES que puedan resultar aplicables."
+                    ]
+                },
+                {
+                    "id": 21,
+                    "type": "p",
+                    "text": [
+                        "BOSA SAS informa que los trámites para efectuar la contratación de los servicios prestados son aquellos que se describen en las presentes CONDICIONES GENERALES DE CONTRATACIÓN, así como aquellos otros específicos que se indiquen en pantalla durante la navegación, de manera que EL USUARIO declara conocer y aceptar dichos trámites como necesarios para acceder a los servicios ofrecidos por LOS TRANSPORTADORES en LA PLATAFORMA del sitio web."
+                    ]
+                },
+                {
+                    "id": 22,
+                    "type": "p",
+                    "text": [
+                        "Cualquier modificación y/o corrección de los datos proporcionados por LOS USUARIOS durante la navegación deberá efectuarse según las indicaciones incluidas en el sitio web."
+                    ]
+                },
+                {
+                    "id": 23,
+                    "type": "st",
+                    "text": [
+                        "3. Proceso de Contratación"
+                    ]
+                },
+                {
+                    "id": 24,
+                    "type": "sst",
+                    "text": [
+                        "3.1 Servicio prestado por www.packappweb.com"
+                    ]
+                },
+                {
+                    "id": 25,
+                    "type": "p",
+                    "text": [
+                        "LA PLATAFORMA www.packappweb.com es un nexo digital entre EL COMITENTE y EL TRANSPORTADOR."
+                    ]
+                },
+                {
+                    "id": 25,
+                    "type": "p",
+                    "text": [
+                        "BOSA SAS, propietaria del dominio www.packappweb.com y de LA PLATAFORMA, es completamente ajena a la relación negocial entre los diversos usuarios que allí operen."
+                    ]
+                },
+                {
+                    "id": 27,
+                    "type": "p",
+                    "text": [
+                        "A través del sitio web, cada USUARIO podrá subir a LA PLATAFORMA los formularios descriptivos de LOS PEDIDOS DE SERVICIO DE TRASLADO de los bultos, paquetes, sobres o similares que desee enviar denominados COSA TRANSPORTADA y podrá consultar los precios que distintos transportadores cotizan por trasladarlos desde un PUNTO DE ORIGEN hasta un PUNTO DE DESTINO y contratar online el servicio de EL TRANSPORTADOR que mejor se adapte a sus necesidades."
+                    ]
+                },
+                {
+                    "id": 28,
+                    "type": "sst",
+                    "text": [
+                        "3.2 Contratación del servicio"
+                    ]
+                },
+                {
+                    "id": 29,
+                    "type": "p",
+                    "text": [
+                        "Para realizar un ENVÍO, EL USUARIO requirente deberá acceder al Sitio Web e introducir el país, provincia, ciudad y domicilio de recogida y entrega, deberá especificar el peso y medidas del paquete que desea enviar y aportar los datos del remitente y destinatario (nombre, apellido, dirección de correo electrónico, número de celular) en el apartado “BUSCADOR DE ENVÍO DE PAQUETERÍA”."
+                    ]
+                },
+                {
+                    "id": 30,
+                    "type": "p",
+                    "text": [
+                        "Después de cargar la información solicitada deberá esperar las ofertas de transportistas disponibles."
+                    ]
+                },
+                {
+                    "id": 31,
+                    "type": "p",
+                    "text": [
+                        "En la página podrá consultar los precios ofrecidos por los distintos transportistas para el envío de la cosa transportada especificada y escoger la tarifa que considere más adecuada presionando el botón “ACEPTAR OFERTA”."
+                    ]
+                },
+                {
+                    "id": 32,
+                    "type": "p",
+                    "text": [
+                        "Los precios establecidos en el sitio web no incluyen los diferentes tributos (tasas, impuestos u otros), tales como IVA ni los posibles costes de despachos y cargos aduaneros. El pago de las cargas tributarias, arancelarias, derechos, seguros y cualesquier otros gravámenes, son a cargo de EL USUARIO requirente de cada servicio de traslado."
+                    ]
+                },
+                {
+                    "id": 33,
+                    "type": "p",
+                    "text": [
+                        "El precio final por envío contiene: el precio cotizado por el transportador más la comisión que BOSA SAS publique en el tarifario de comisiones del sitio web www.packappweb.com."
+                    ]
+                },
+                {
+                    "id": 34,
+                    "type": "p",
+                    "text": [
+                        "Posteriormente, EL COMITENTE deberá aceptar las presentes CONDICIONES GENERALES y la POLÍTICA DE PRIVACIDAD DEL SITIO WEB. EL USUARIO deberá dirigirse en todo momento a BOSA SAS y/o a EL DOMINIO www.packappweb.com y/o a LA PLATAFORMA a través de EL PORTAL DE AYUDA, para cualquier consulta o gestión del servicio."
+                    ]
+                },
+                {
+                    "id": 35,
+                    "type": "p",
+                    "text": [
+                        "Ni BOSA SAS ni EL DOMINIO www.packappweb.com ni LA PLATAFORMA podrá identificar a EL USUARIO si éste remite la solicitud desde una cuenta de correo electrónico distinta de la que detalló durante la contratación, en TUS DATOS, MI PERFIL. Esta divergencia en los datos aportados por EL USUARIO exime a las nombradas de toda responsabilidad."
+                    ]
+                },
+                {
+                    "id": 36,
+                    "type": "p",
+                    "text": [
+                        "El sistema automático de SOLICITUDES DE ENVÍO recoge los datos que EL USUARIO introduce. Es obligación de EL USUARIO facilitar los datos de recogida y entrega que se solicitan."
+                    ]
+                },
+                {
+                    "id": 37,
+                    "type": "p",
+                    "text": [
+                        "En caso de que EL USUARIO desee recibir una factura A por los servicios prestados (servicio de intermediación entre el usuario y el transportista), deberá solicitarlo a EL EQUIPO SOPORTE DE PACKAPP. LA FACTURA será enviada a la cuenta de email registrada por EL COMITENTE. Packapp, BOSA SAS, LA PLATAFORMA no ofrecen servicio de envíos, ofrece un ámbito virtual (LA PLATAFORMA) de libre concurrencia entre oferentes de servicios de traslado de cosas (LOS TRANSPORTADORES) y demandantes de los servicios ofrecidos por aquellos (LOS COMITENTES). Por ende se limitará a Facturar solo la comisión cobrada al comitente por cada servicio contratado por este."
+                    ]
+                },
+                {
+                    "id": 38,
+                    "type": "p",
+                    "text": [
+                        "Los agentes asignados por BOSA SAS o EL DOMINIO www.packappweb.com y/o a LA PLATAFORMA, resolverán las consultas durante el horario de Atención al Cliente: generalmente de lunes a viernes de 8 a 17 hs."
+                    ]
+                },
+                {
+                    "id": 39,
+                    "type": "p",
+                    "text": [
+                        "Se tendrá en cuenta que la fecha y la hora de recogida escogida por LOS USUARIOS no están garantizadas en todos los servicios, ni con todos LOS TRANSPORTADORES."
+                    ]
+                },
+                {
+                    "id": 40,
+                    "type": "p",
+                    "text": [
+                        "EL COMITENTE deberá incluir los detalles del pago y continuar con el proceso de contratación. Una vez se complete el proceso, EL USUARIO recibirá un email confirmando el pedido y con el número de identificación del mismo, unos minutos después de realizar el pago, y en un plazo máximo de VEINTICUATRO (24) horas."
+                    ]
+                },
+                {
+                    "id": 41,
+                    "type": "sst",
+                    "text": [
+                        "3.3 Recogida de la cosa transportada"
+                    ]
+                },
+                {
+                    "id": 42,
+                    "type": "p",
+                    "text": [
+                        "En caso de que por LA PLATAFORMA se haya confirmado a EL COMITENTE que los servicios solicitados han sido contratados con éxito y llegada la fecha y franja horaria escogida para la recogida de EL ENVÍO, EL TRANSPORTADOR escogido por EL COMITENTE pasará a recogerla."
+                    ]
+                },
+                {
+                    "id": 43,
+                    "type": "p",
+                    "text": [
+                        "En caso de incidencia (recogida no realizada). La reprogramación de la nueva recogida debe gestionarse directamente por EL DOMINIO www.packappweb.com, a través del PORTAL DE AYUDA."
+                    ]
+                },
+                {
+                    "id": 44,
+                    "type": "p",
+                    "text": [
+                        "En caso de que EL TRANSPORTADOR no pudiera recoger LA COSA TRANSPORTADA en la fecha y hora reprogramadas, por cualquier causa imputable a EL COMITENTE y/o a EL REMITENTE, BOSA SAS podrá resolver el contrato y hacer suyo el precio de la comisión por el servicio contratado y abonar al transportador el precio cotizado por el servicio frustrado."
+                    ]
+                },
+                {
+                    "id": 45,
+                    "type": "p",
+                    "text": [
+                        "LA COSA TRANSPORTADA hacia y desde Áreas Remotas, tanto a nivel nacional como, eventualmente internacional, pueden estar sujetos a demoras e inclusive a baja del servicio. LOS USUARIOS podrán encontrar más información sobre este punto en la cláusula 16 “Exoneración de Responsabilidad”."
+                    ]
+                },
+                {
+                    "id": 46,
+                    "type": "p",
+                    "text": [
+                        "EL USUARIO debe solicitar siempre a EL TRANSPORTADOR que recoge LA COSA TRANSPORTADA un recibo, albarán de recogida o carta de porte. No se admitirán reclamaciones que no vengan acompañadas del resguardo de recogida, ya que en ese caso no existe prueba de que EL TRANSPORTADOR haya recogido la Mercancía."
+                    ]
+                },
+                {
+                    "id": 47,
+                    "type": "p",
+                    "text": [
+                        "EL USUARIO debe solicitar siempre a EL TRANSPORTADOR que recoge LA COSA TRANSPORTADA un recibo, albarán de recogida o carta de porte. No se admitirán reclamaciones que no vengan acompañadas del resguardo de recogida, ya que en ese caso no existe prueba de que EL TRANSPORTADOR haya recogido la Mercancía."
+                    ]
+                },
+                {
+                    "id": 48,
+                    "type": "sst",
+                    "text": [
+                        "3.4 Entrega de la cosa transportada"
+                    ]
+                },
+                {
+                    "id": 49,
+                    "type": "p",
+                    "text": [
+                        "LA ENTREGA será realizada en la dirección que EL COMITENTE indique en la solicitud, pudiendo elegir entre ENTREGAS A DOMICILIO (SERVICIO PUERTA A PUERTA) o PUNTOS DE CONVENIENCIA (PUNTO DE ENCUENTRO) durante la contratación del servicio."
+                    ]
+                },
+                {
+                    "id": 50,
+                    "type": "p",
+                    "text": [
+                        "Si EL ENVÍO no ha podido ser entregado a EL DESTINATARIO, EL TRANSPORTADOR podrá dejar una NOTA DE AVISO a EL DESTINATARIO para que éste realice una reprogramación de la entrega y, entretanto, podrá llevar LA COSA TRANSPORTADA a sus almacenes."
+                    ]
+                },
+                {
+                    "id": 51,
+                    "type": "p",
+                    "text": [
+                        "Dependiendo del servicio y/o EL TRANSPORTADOR utilizada para LA COSA TRANSPORTADA, en el caso de no poder completarse la entrega, se podrá realizar un segundo intento de entrega en la dirección de destino (sin coste adicional para EL USUARIO)."
+                    ]
+                },
+                {
+                    "id": 52,
+                    "type": "p",
+                    "text": [
+                        "Para la eventualidad de un destino extranacional, hay que tener en cuenta que, en algunos países, en caso de no encontrarse EL DESTINATARIO en su domicilio, el transportador puede dejar la Mercancía en otra dirección, tal como el DOMICILIO DE UN VECINO o un PUNTO DE CONVENIENCIA, como ejemplos."
+                    ]
+                },
+                {
+                    "id": 53,
+                    "type": "p",
+                    "text": [
+                        "EL USUARIO tendrá que hacerse cargo de los gastos de almacenaje, devolución o de destrucción de la COSA TRANSPORTADA, una vez ésta haya superado el plazo marcado por EL TRANSPORTADOR."
+                    ]
+                },
+                {
+                    "id": 54,
+                    "type": "p",
+                    "text": [
+                        "Cuando sea REHUSADO el envío en destino o cuando por cualquiera otra causa, la empresa que ejecute el transporte no pueda realizar la entrega de EL ENVÍO, BOSA SAS y/o EL DOMINIO www.packappweb.com y/o LA PLATAFORMA, tan pronto como le sea posible, comunicará a EL USUARIO las circunstancias que impiden la entrega. Lo hará a través del SEGUIMIENTO DEL ENVÍO y cuando por cuestiones técnicas u otras ajenas a las nombradas esto no sea posible, cumplirá este cometido a través de correo electrónico."
+                    ]
+                },
+                {
+                    "id": 55,
+                    "type": "p",
+                    "text": [
+                        "En este caso, EL USUARIO deberá contestar por escrito a BOSA SAS y/o EL DOMINIO www.packappweb.com y/o LA PLATAFORMA, en el plazo máximo de DOS (2) días hábiles, contados desde la recepción de la referida comunicación, si desea recuperar EL ENVÍO o si prefiere que se remita a otro lugar de destino."
+                    ]
+                },
+                {
+                    "id": 56,
+                    "type": "p",
+                    "text": [
+                        "Vencido ese plazo sin que EL COMITENTE haya comunicado su decisión a las nombradas, EL ENVÍO será tratado con arreglo a lo que establezca la norma legal aplicable en función de la naturaleza y del tipo de envío."
+                    ]
+                },
+                {
+                    "id": 57,
+                    "type": "p",
+                    "text": [
+                        "En cualquier caso, pesará en cabeza de EL COMITENTE el abono de los portes, gastos y costes ocasionados, además del pago de la tarifa adicional correspondiente."
+                    ]
+                },
+                {
+                    "id": 58,
+                    "type": "p",
+                    "text": [
+                        "Si la Mercancía fuera devuelta a EL REMITENTE o enviada a otra dirección a petición de EL COMITENTE, éste tendrá que abonar a BOSA SAS o a quién ésta indique, LOS PORTES derivados de dicho trayecto."
+                    ]
+                },
+                {
+                    "id": 59,
+                    "type": "p",
+                    "text": [
+                        "Todos los plazos de entrega que se muestran en EL DOMINIO www.packappweb.com y/o LA PLATAFORMA son orientativos, y basados en la información de EL TRANSPORTADOR."
+                    ]
+                },
+                {
+                    "id": 60,
+                    "type": "p",
+                    "text": [
+                        "BOSA SAS recomienda la conveniencia de, antes de contratar los servicios ofrecidos en el sitio web, siempre se revisen las condiciones del TRANSPORTADOR que pretenda elegirse."
+                    ]
+                },
+                {
+                    "id": 61,
+                    "type": "p",
+                    "text": [
+                        "La firma advierte que la entrega de la Mercancía, en ocasiones, puede retrasarse por motivos que estén fuera del control tanto de BOS SAS y/o de www.packappweb.com y/o de LA PLATAFORMA, como de EL TRANSPORTADOR. Todos los tiempos de tránsito, se basan en horas/días laborables de lunes a viernes y en caso de decidirlo así el transportador, los días festivos. Las contingencias ajenas a la voluntad de EL TRANSPORTADOR surgidas desde que LOS ENVÍOS ingresan en poder de éste, interrumpen el cómputo de los plazos prefijados."
+                    ]
+                },
+                {
+                    "id": 62,
+                    "type": "p",
+                    "text": [
+                        "En los servicios de paquetería y cualesquier otros similares que impliquen la recogida o reparto de envíos de mercancías consistentes en un reducido número de bultos (máximo 5 bultos, peso máximo por bulto 30 kgs.) que puedan ser fácilmente manipulados por una persona sin otra ayuda que las máquinas o herramientas que lleve a bordo el vehículo utilizado, las operaciones de carga y descarga serán por cuenta de EL TRANSPORTADOR."
+                    ]
+                },
+                {
+                    "id": 63,
+                    "type": "p",
+                    "text": [
+                        "LOS ENVÍOS que requieran medios extraordinarios o especiales para la carga y/o descarga se aceptarán para su transporte siempre y cuando en la SOLICITUD DEL SERVICIO esto haya sido suficientemente especificado y en tanto EL TRANSPORTADOR haya cotizado sus servicios sin objeciones, ni aclaraciones relativas a esta especificidad. En este punto EL COMITENTE puede aceptar o consentir -tácita o explícitamente- que la entrega pueda realizarse a pie de calle, o dejar a disposición del destinatario en el almacén de la empresa de transporte más cercano al domicilio, durante al menos DOS (2) DÍAS HÁBILES."
+                    ]
+                },
+                {
+                    "id": 64,
+                    "type": "p",
+                    "text": [
+                        "BOSA SAS, el dominio www.packappweb.com y/o LA PLATAFORMA colaboran en la localización de vehículos y medios especiales para estas entregas con EL COMITENTE toda vez que LOS TRANSPORTADORES cuando ofrecen un servicio de traslado de cosas deben especificar el medio en que se movilizan y éstos pueden ser: bicicleta, motovehículo, automóvil, camioneta, vehículo pesado. La enumeración precedente es tan sólo enunciativa y no limitativa. Asimismo, también Podrán realizar aclaraciones sobre detalles del viaje."
+                    ]
+                },
+                {
+                    "id": 65,
+                    "type": "p",
+                    "text": [
+                        "Es absoluta responsabilidad de EL TRANSPORTADOR y LOS TRANSPORTADORES realizar ofertas que luego no pudieren cumplir."
+                    ]
+                },
+                {
+                    "id": 66,
+                    "type": "p",
+                    "text": [
+                        "BOSA SAS y/o EL DOMINIO www.packappweb.com y/o LA PLATAFORMA no admiten entregas a un apartado postal ni en buzón de domicilio particular."
+                    ]
+                },
+                {
+                    "id": 67,
+                    "type": "st",
+                    "text": [
+                        "4. Términos y Condiciones de los transportadores"
+                    ]
+                },
+                {
+                    "id": 68,
+                    "type": "p",
+                    "text": [
+                        "Para la entrega y recogida de LOS ENVÍOS, se aplicarán las condiciones de cada una de los TRANSPORTADORES. El comitente deberá aceptarlas en el momento de formalizar EL ENVÍO, donde tendrá acceso a las mismas. Una vez contratado el servicio por intermedio de www.packappweb.com, EL COMITENTE podrá consultar con EL TRANSPORTADOR elegido todas condiciones respecto a EL ENVÍO y tratamiento de la COSA TRANSPORTADA. El sitio web www.packappweb.com le brindará a EL COMITENTE todos los datos identificativos del TRANSPORTADOR, como lo es teléfono, celular, domicilio real, dni y/o cuit, nombre y apellido, razón social."
+                    ]
+                },
+                {
+                    "id": 69,
+                    "type": "p",
+                    "text": [
+                        "En caso de existir discrepancia entre lo publicado en el presente sitio web y en las páginas web del TRANSPORTADOR con respecto a la entrega y recogida, se aplicarán siempre las condiciones de servicio del TRANSPORTADOR."
+                    ]
+                },
+                {
+                    "id": 70,
+                    "type": "p",
+                    "text": [
+                        "Ningún USUARIO podrá hacer objetar aspectos relativos a la colaboración de BOSA SAS y/o EL DOMINIO www.packappweb.com y/o LA PLATAFORMA con TRANSPORTADORES, actuales o futuras"
+                    ]
+                },
+                {
+                    "id": 71,
+                    "type": "st",
+                    "text": [
+                        "5. Obligaciones y Derechos de www.packappweb.com"
+                    ]
+                },
+                {
+                    "id": 72,
+                    "type": "p",
+                    "text": [
+                        "BOSA SAS o EL DOMINIO www.packappweb.com o LA PLATAFORMA, se encargará de intermediar en la recogida y la entrega DEL ENVÍO a través del TRANSPORTADOR elegido por EL COMITENTE en el momento de la contratación del pedido."
+                    ]
+                },
+                {
+                    "id": 73,
+                    "type": "p",
+                    "text": [
+                        "Ni BOSA SAS ni EL DOMINIO www.packappweb.com ni LA PLATAFORMA no entra en contacto directo con EL ENVÍO. Las nombradas únicamente colaboran con la gestión de traslado de EL ENVÍO a través del TRANSPORTADOR con la que EL COMITENTE haya pactado la operación."
+                    ]
+                },
+                {
+                    "id": 74,
+                    "type": "p",
+                    "text": [
+                        "BOSA SAS o EL DOMINIO www.packappweb.com o LA PLATAFORMA podrá atender todas las reclamaciones/consultas que EL USUARIO, sea el COMITENTE, REMITENTE o EL DESTINATARIO del pedido desee remitir, siempre que lo haga a través de su cuenta de correo electrónico detallada durante la contratación, en el Paso 2 Datos del envío – Tus datos."
+                    ]
+                },
+                {
+                    "id": 75,
+                    "type": "p",
+                    "text": [
+                        "LOS USUARIOS recibirán su respuesta a la reclamación/consulta por el mismo medio. Para más información consultar la cláusula 14 “Gestión de Reclamaciones”."
+                    ]
+                },
+                {
+                    "id": 76,
+                    "type": "p",
+                    "text": [
+                        "EL TRANSPORTADOR tiene el derecho a rechazar cualquier Mercancía por razones determinadas, como pueden ser, con carácter enunciativo y no limitativo, la ausencia de embalaje, un embalaje insuficiente, o si EL ENVÍO O LA COSA TRANSPORTADA excediera las dimensiones y el peso remitidos a la hora de contratar el servicio, y si la naturaleza de EL ENVÍO así lo requiriese por tratarse de artículos prohibidos por leyes nacionales."
+                    ]
+                },
+                {
+                    "id": 77,
+                    "type": "st",
+                    "text": [
+                        "6. Obligaciones del usuario"
+                    ]
+                },
+                {
+                    "id": 78,
+                    "type": "p",
+                    "text": [
+                        "EL USUARIO se compromete a:"
+                    ]
+                },
+                {
+                    "id": 79,
+                    "type": "p",
+                    "text": [
+                        "6.1. Embalar todos LOS ENVÍOS de manera adecuada y protegidos debidamente para su transporte, teniendo en cuenta el contenido del mismo, y garantizando que no cause daños o perjuicios al equipo o personal que lo transporta o a otros envíos dentro del mismo transporte."
+                    ]
+                },
+                {
+                    "id": 80,
+                    "type": "p",
+                    "text": [
+                        "EL USUARIO que interviene como EL REMITENTE es el responsable de garantizar que el embalaje es el adecuado para el transporte de LA COSA TRANSPORTADA."
+                    ]
+                },
+                {
+                    "id": 81,
+                    "type": "p",
+                    "text": [
+                        "Desde la plataforma se recomienda que todos los artículos deben estar cuidadosamente embalados y que cada artículo se proteja con material suficiente para su correcto transporte."
+                    ]
+                },
+                {
+                    "id": 82,
+                    "type": "p",
+                    "text": [
+                        "Además, EL USUARIO será responsable por cada uno de LOS ENVÍOS que despachare, de los daños causados a los de otros USUARIOS durante el tránsito, si es como consecuencia del insuficiente o inadecuado embalaje."
+                    ]
+                },
+                {
+                    "id": 83,
+                    "type": "p",
+                    "text": [
+                        "Los artículos que no se entreguen en una caja o continente que los proteja adecuadamente o sirvan de embalaje apropiado podrían sufrir retrasos, devoluciones y ser retenidos. En estos casos BOSA SAS, LA PLATAFORMA O EL DOMINIO no realizará devoluciones de ningún importe y EL USUARIO soportará los gastos que haya generado el transporte hasta el momento de la cancelación del pedido, “Recogida Fallida” o devolución de la mercancía a origen."
+                    ]
+                },
+                {
+                    "id": 84,
+                    "type": "p",
+                    "text": [
+                        "EL REMITENTE debe asegurarse de que entrega la cosa transportada a EL TRANSPORTADOR CONTRATADO."
+                    ]
+                },
+                {
+                    "id": 85,
+                    "type": "p",
+                    "text": [
+                        "En caso de que EL COMITENTE de la COSA TRANSPORTADA no coincida con EL REMITENTE, éste será el responsable de informar al Remitente del PUNTO DE ENCUENTRO en que se recogerá la cosa transportada y todos los requisitos referidos a la entrega de la cosa transportada al TRANSPORTISTA, la ausencia de esta comunicación no implica responsabilidad alguna de www.packappweb.com. Asimismo es el COMITENTE quien tiene la responsabilidad de informar al destinatario el PUNTO DE ENCUENTRO. BOSA SAS, EL DOMINIO www.packappweb.com no se hacen responsables de esta falta de comunicación."
+                    ]
+                },
+                {
+                    "id": 86,
+                    "type": "p",
+                    "text": [
+                        "Todos los Envíos deben estar correctamente etiquetados, y todas las ETIQUETAS DE ENVÍO, Hojas de Dirección, Facturas Comerciales (si se necesitaren para acreditar el origen de una pieza o bulto transportado) deberán estar firmemente adheridas para evitar que se desprendan, y situadas en la superficie plana de mayor tamaño de cada paquete/mercancía/pieza o bulto para facilitar la visibilidad. También debe asegurarse de que, al enviar varios paquetes en un mismo pedido, las ETIQUETAS DE ENVÍO y HOJAS DE DIRECCIÓN estén adjuntadas adecuadamente."
+                    ]
+                },
+                {
+                    "id": 87,
+                    "type": "p",
+                    "text": [
+                        "Si EL REMITENTE no ha etiquetado adecuadamente los paquetes que compongan el pedido, el TRANSPORTADOR podrá negarse a recoger el pedido. En estos casos, ni BOSA SAS ni EL DOMINIO www.packappweb.com ni LA PLATAFORMA ni EL TRANSPORTADOR serán responsables, en ningún caso, de cualquier retraso en la entrega, falta de entrega o la no entrega derivada o causada por un etiquetado deficiente o ambiguo o cualquier otro fallo en el etiquetado por parte de EL REMITENTE."
+                    ]
+                },
+                {
+                    "id": 88,
+                    "type": "p",
+                    "text": [
+                        "Se tendrá en cuenta que LOS ENVÍOS sin ETIQUETA DE ENVÍO y/o sin HOJA DE DIRECCIÓN no podrán ser reenviadas de forma gratuita. Si un Envío tuviera que ser devuelto por esta razón, no se tendrá derecho a la devolución del precio del transporte contratado; y pesarán sobre EL COMITENTE TODOS los cargos que correspondan."
+                    ]
+                },
+                {
+                    "id": 89,
+                    "type": "p",
+                    "text": [
+                        "Todos los datos que proporciona EL USUARIO (incluso por medios electrónicos) en relación con la solicitud y contratación, etiquetado, transporte o facturación de EL ENVÍO deberán ser exactos, completos, suficientes y coincidentes con los aportados en la contratación."
+                    ]
+                },
+                {
+                    "id": 90,
+                    "type": "p",
+                    "text": [
+                        "Dichos datos incluyen, pero no se limitan a: el peso y las dimensiones del bulto, una descripción precisa del contenido del paquete/bulto, más los siguientes datos de EL DESTINATARIO: nombre completo, dirección completa incluyendo el código postal, número de teléfono (siempre del país de destino) y dirección de correo electrónico. Es responsabilidad del transportador comprobar esta información."
+                    ]
+                },
+                {
+                    "id": 91,
+                    "type": "p",
+                    "text": [
+                        "EL USUARIO que actúa como EL COMITENTE se compromete a declarar correctamente el contenido y su valor y asume toda responsabilidad si proporcionare datos falsos."
+                    ]
+                },
+                {
+                    "id": 92,
+                    "type": "p",
+                    "text": [
+                        "En el caso de que EL USUARIO no haya facilitado todos los datos necesarios, EL TRANSPORTADOR podrá negarse a realizar la recogida y/o entrega y serán imputados a EL USUARIO los gastos que pudieran ocasionarse."
+                    ]
+                },
+                {
+                    "id": 93,
+                    "type": "p",
+                    "text": [
+                        "EL ENVÍO deberá cumplir y ajustarse a todas las obligaciones legales y reglamentos sobre el transporte de mercancías por carretera, mar y aire. Cualquier sanción administrativa, legal o judicial que pudiere derivarse por el incumplimiento de este punto o si la mercancía fuera considerada ilegal, bien en el país de origen, tránsito o destino, generará cargos que pesarán íntegramente sobre EL USUARIO."
+                    ]
+                },
+                {
+                    "id": 94,
+                    "type": "p",
+                    "text": [
+                        "Los gastos que debe asumir EL USUARIO incluyen pero no se limitan a: cargos por el transporte, sobrecargos (incluyendo, pero no limitado a, recargos de emergencia, operativos y de combustible), gastos de almacenaje, IVA, impuestos, intereses, multas, gastos de administración, derechos de aduana, primas de seguros y cualquier otro coste imputable al Usuario por parte de www.packappweb.com en relación al transporte o requeridos por los organismos reguladores en relación al Envío y cualquier otra cantidad que devengue en virtud de estos Términos y Condiciones."
+                    ]
+                },
+                {
+                    "id": 95,
+                    "type": "p",
+                    "text": [
+                        "EL COMITENTE será el responsable de realizar el seguimiento de su envío, y entrar en contacto con EL TRANSPORTADOR seleccionado y/o el EQUIPO SOPORTE de BOSSA SAS y/o de EL DOMINIO www.packappweb.com y/o LA PLATAFORMA para gestionar cualquier retraso, incidencia o ausencia de información actualizada."
+                    ]
+                },
+                {
+                    "id": 96,
+                    "type": "p",
+                    "text": [
+                        "EL USUARIO se compromete a colaborar con BOSA SAS y EL TRANSPORTADOR en la resolución de toda incidencia dentro de los plazos marcados en la operativa del servicio contratado, por norma general pero no limitativa, en el plazo de DOS (2) DÍAS hábiles."
+                    ]
+                },
+                {
+                    "id": 97,
+                    "type": "p",
+                    "text": [
+                        "En caso de devolución de mercancías por falta de solución, se aplicarán los recargos que correspondan."
+                    ]
+                },
+                {
+                    "id": 98,
+                    "type": "p",
+                    "text": [
+                        "Es responsabilidad de EL COMITENTE informar a LOS DESTINATARIOS de terceros Países de los costes de despacho e impuestos aduaneros que deberán asumir a la entrega de la mercancía, a fin de evitar incidencias, depósitos o abandonos aduaneros. El Usuario acepta que en caso de que el destinatario no liquide los impuestos, éstos serán cargados en su cuenta a través de la misma forma de pago que utilizó en la contratación del servicio."
+                    ]
+                },
+                {
+                    "id": 99,
+                    "type": "p",
+                    "text": [
+                        "EL USUARIO deberá aportar la documentación necesaria para la tramitación de siniestros (roturas, robos, extravíos, accidentes etc.) en los plazos marcados en el apartado 14 “Gestión de Reclamaciones”."
+                    ]
+                },
+                {
+                    "id": 100,
+                    "type": "p",
+                    "text": [
+                        "EL USUARIO deberá realizar todas las consultas/reclamaciones a través de EL DOMINIO www.packappweb.com y/ o LA PLATAFORMA, que posteriormente realizará las gestiones con EL TRANSPORTADOR por cuenta del Usuario."
+                    ]
+                },
+                {
+                    "id": 101,
+                    "type": "p",
+                    "text": [
+                        "Si EL USUARIO contacta solo con EL TRANSPORTADOR, es probable que resulte más complicado gestionar la incidencia posteriormente. BOSA SAS y EL DOMINIO www.packappweb.com así como LA PLATAFORMA no se responsabiliza, en ningún caso, de las gestiones realizadas por EL USUARIO con la EL TRANSPORTADOR."
+                    ]
+                },
+                {
+                    "id": 102,
+                    "type": "p",
+                    "text": [
+                        "EL USUARIO acepta que, en el caso de no cumplir con las condiciones de esta sección, con el resto de las obligaciones establecidas en estos TÉRMINOS Y CONDICIONES y/o en las presentes CONDICIONES GENERALES y las CONDICIONES DEL TRANSPORTADOR escogido, BOSA SAS, EL DOMINIO www.packappweb.com, LA PLATAFORMA se exime de toda responsabilidad sobre cualquier gasto, coste, pérdida o daño que pudiera ocasionarse."
+                    ]
+                },
+                {
+                    "id": 103,
+                    "type": "p",
+                    "text": [
+                        "Asimismo, en este supuesto, EL USUARIO asumirá la responsabilidad subsiguiente sobre cualquier daño, gasto o perjuicio que pudiera ocasionar el no cumplimiento de las condiciones de esta sección, tanto ante BOSA SAS, EL DOMINIO www.packappweb.com y LA PLATAFORMA como ante EL TRANSPORTADOR a quienes se compromete a mantener indemnes en estos casos."
+                    ]
+                },
+                {
+                    "id": 104,
+                    "type": "st",
+                    "text": [
+                        "7. Artículos Prohibidos y/o Dañados"
+                    ]
+                },
+                {
+                    "id": 105,
+                    "type": "p",
+                    "text": [
+                        "Los artículos de la lista de ARTÍCULOS PROHIBIDOS no pueden ser enviados a través de ninguno de los servicios de BOSA SAS, ni de EL DOMINIO www.packappweb.com ni de LA PLATAFORMA."
+                    ]
+                },
+                {
+                    "id": 106,
+                    "type": "p",
+                    "text": [
+                        "EL USUARIO declara durante la contratación que no está enviando este tipo de mercancía, de otro modo el sitio web no permite finalizar el proceso de contratación."
+                    ]
+                },
+                {
+                    "id": 107,
+                    "type": "p",
+                    "text": [
+                        "Hay que tener en cuenta también, en caso de exportaciones, que las mercancías por transportar sean admitidas por las aduanas de destino."
+                    ]
+                },
+                {
+                    "id": 108,
+                    "type": "p",
+                    "text": [
+                        "Es responsabilidad exclusiva de EL USUARIO comprobar que el artículo no está incluido en las listas de ARTÍCULOS PROHIBIDOS."
+                    ]
+                },
+                {
+                    "id": 109,
+                    "type": "p",
+                    "text": [
+                        "Las Mercancías que pertenezcan a LA LISTA DE ARTÍCULOS PROHIBIDOS podrían no ser recogidas, o podrían sufrir retrasos, ser devueltas o confiscadas por las autoridades aduaneras. En el caso de que sin conocimiento del TRANSPORTADOR y/o de BOSA SAS y/o de EL DOMINIO www.packappweb.com se lleve a cabo el envío de algún ARTÍCULO PROHIBIDO, no se realizará ninguna devolución de los GASTOS DEL ENVÍO DE ARTÍCULOS PROHIBIDOS y no se admitirá ningún tipo de reclamación por retrasos en las entregas o recogidas o por cualquier otro tipo."
+                    ]
+                },
+                {
+                    "id": 110,
+                    "type": "p",
+                    "text": [
+                        "Si el TRANSPORTADOR recogiera alguna Mercancía perteneciente a la lista de Artículos Prohibidos, EL USUARIO tendría que asumir un posible recargo y la devolución de la Mercancía, sin posibilidad de reclamación de cobertura incluida o adicional."
+                    ]
+                },
+                {
+                    "id": 111,
+                    "type": "p",
+                    "text": [
+                        "Se tendrá en cuenta que BOSA SAS y EL DOMINIO www.packappweb.com cuentan con un sistema informático automatizado de solicitud de peticiones de Envío, por lo que el personal por ellas asignado no puede controlar lo que se está enviando. Es responsabilidad de EL USUARIO leer y respetar las CONDICIONES DEL TRANSPORTADOR elegidas o realizar una consulta a través del Portal de Ayuda para asegurarse de que la Mercancía va a ser aceptada."
+                    ]
+                },
+                {
+                    "id": 112,
+                    "type": "p",
+                    "text": [
+                        "En el caso de que un artículo estuviera dañado, hasta el grado de no poder ser transportado, EL TRANSPORTADOR podría también retenerlo para que fuera recogido por EL USUARIO que pretende enviarlo. Si la mercancía no pudiera ser retenida por razones de seguridad o salubridad, EL TRANSPORTADOR podría decidir destruirla sin previo aviso."
+                    ]
+                },
+                {
+                    "id": 113,
+                    "type": "ssst",
+                    "text": [
+                        "LISTA DE ARTÍCULOS PROHIBIDOS"
+                    ]
+                },
+                {
+                    "id": 114,
+                    "type": "ul",
+                    "text": [
+                        "Prohibidos por su carácter peligroso:",
+                        {
+                            "type": "ul",
+                            "content": [
+                                "Sustancias que por su naturaleza o embalaje contengan peligro para las personas que las manipulan, para otros envíos y para los equipos postales o medios de transporte.",
+                                "Sustancias inflamables, explosivas, consideradas peligrosas o cuyo derrame represente agresión química a seres humanos u objetos.",
+                                "Armas (excepto las de uso civil desarmadas, sin municiones y con la documentación reglamentaria), pólvora, municiones y afines.",
+                                "Material radioactivo en general (excepto envíos de la CONEA u otro organismo equivalente) y material biológico (excepto autorizaciones expresas realizadas por convenios del Correo Argentino)."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 115,
+                    "type": "ul",
+                    "text": [
+                        "No permitidos:",
+                        {
+                            "type": "ul",
+                            "content": [
+                                "Animales vivos y plantas.",
+                                "Drogas, estupefacientes, medicamentos psicotrópicos y psicofármacos en general, salvo entre personas humanas o jurídicas habilitadas para la medicina o farmacología."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 116,
+                    "type": "p",
+                    "text": [
+                        "Tenga en cuenta que:"
+                    ]
+                },
+                {
+                    "id": 117,
+                    "type": "p",
+                    "text": [
+                        "Cuando dentro de una jurisdicción postal se detectase la circulación de escritos, ilustraciones u objetos de carácter presuntamente inmoral o delictuoso, se dará intervención a la autoridad competente a los efectos de su calificación, y posterior comiso y destrucción cuando correspondiere."
+                    ]
+                },
+                {
+                    "id": 118,
+                    "type": "p",
+                    "text": [
+                        "Cuando la autoridad postal presumiera la existencia de elementos de circulación prohibida en envíos postales cerrados, podrá realizar la apertura con el consentimiento y presencia del impositor o destinatario o su inmediata devolución en caso de negativa. Si del procedimiento surgiera la evidencia de tales elementos, se ajustará su contenido conforme a la Ley de Correos y a lo dispuesto en la reglamentación."
+                    ]
+                },
+                {
+                    "id": 119,
+                    "type": "st",
+                    "text": [
+                        "8. Servicio Contra-Reembolso"
+                    ]
+                },
+                {
+                    "id": 120,
+                    "type": "p",
+                    "text": [
+                        "EL SERVICIO CONTRA-REEMBOLSO, PREVÉ que EL DESTINATARIO, receptor de la COSA TRANSPORTADA, debe abonar la cantidad solicitada por el comitente en el momento de recibir EL ENVÍO. Cuando ésta opción sea habilitada por la página y en aquellos casos que EL SOPORTE a TRAVES DEL PORTAL DE AYUDA lo confirme oficialmente a través de un correo electrónico."
+                    ]
+                },
+                {
+                    "id": 121,
+                    "type": "p",
+                    "text": [
+                        "BOSA SAS ordenará el pago a quien corresponda por EL DESTINTARIO de forma inmediata a partir del momento de la ENTREGA DEL ENVÍO."
+                    ]
+                },
+                {
+                    "id": 122,
+                    "type": "p",
+                    "text": [
+                        "En los pagos contra-reembolso, si el destinatario abonaré a la cuenta de BOSA SAS, la firma acreditará a EL TRANSPORTADOR el importe que este hubiere cotizado. En caso de que el pago se realice en efectivo en manos DEL TRANSPORTADOR, es este quien tiene la obligación de transferir a la cuenta que BOSA SAS indique la comisión que a ésta le corresponda. En caso de que no lo haga, BOSA SAS, LA PLATAFORMA, EL DOMINIO www.packapweb.com se reserva el derecho de aplicar penalidades."
+                    ]
+                },
+                {
+                    "id": 123,
+                    "type": "p",
+                    "text": [
+                        "EL USUARIO deberá imprimir y pegar ETIQUETAS IDENTIFICATIVAS, si se requiere, en la COSA TRANSPORTADA. Éstas se facilitan en el momento de la contratación del servicio y garantizan la correcta gestión de cobro en destino del reembolso solicitado."
+                    ]
+                },
+                {
+                    "id": 124,
+                    "type": "p",
+                    "text": [
+                        "La forma de pago para la liquidación de reembolsos será por medios virtuales o efectivo para envíos a destinos nacionales y, eventualmente, internacionales que, EL USUARIO deberá satisfacer en concepto de gastos financieros y administrativos."
+                    ]
+                },
+                {
+                    "id": 120,
+                    "type": "st",
+                    "text": [
+                        "9. Transporte Internacional y Aduanas"
+                    ]
+                },
+                {
+                    "id": 121,
+                    "type": "p",
+                    "text": [
+                        "En aquellos servicios de transporte en los que eventualmente se requiera una recogida o una entrega de la COSA TRANSPORTADA en países fuera de Argentina, la responsabilidad de BOSA SAS y/o DE EL DOMINIO www.packappweb.com y/o de LA PLATAFORMA se regirá por las disposiciones de los convenios internacionales que resulten de aplicación en cada momento."
+                    ]
+                },
+                {
+                    "id": 122,
+                    "type": "p",
+                    "text": [
+                        "En el caso en el que se tenga que firmar y adjuntar algún tipo documentación a LA COSA TRANSPORTADA, se informará de ello a EL USUARIO durante el proceso de contratación. Esta documentación debe acompañarse A LA COSA TRANSPORTADA. De no ser así, LA COSA TRANSPORTADA puede retrasarse o EL TRANSPORTADOR podría facturar un recargo que www.packappweb.com tendrá que trasladar a EL COMITENTE."
+                    ]
+                },
+                {
+                    "id": 123,
+                    "type": "p",
+                    "text": [
+                        "Cuando LA COSA TRANSPORTADA deba ser trasladado a un destino extranacional, será necesario adjuntar Factura Comercial o Pro-Forma (si la Mercancía no tiene valor comercial) en castellano e inglés. En ella, EL COMITENTE debe realizar una descripción precisa del artículo por exportar, así como citar la razón de la exportación."
+                    ]
+                },
+                {
+                    "id": 124,
+                    "type": "p",
+                    "text": [
+                        "Si las autoridades aduaneras constatan que la descripción no se corresponde con la del artículo enviado o la especificada para la exportación no es verídica (ejemplo: ha manifestado que es un regalo cuando en realidad es una compra) podría aplicarse un recargo o LA COSA TRANSPORTADA podría ser devuelta, confiscada o destruida."
+                    ]
+                },
+                {
+                    "id": 125,
+                    "type": "p",
+                    "text": [
+                        "EL COMITENTE debe asegurarse de que los datos de la factura son redactados correctamente."
+                    ]
+                },
+                {
+                    "id": 126,
+                    "type": "p",
+                    "text": [
+                        "En algunos casos EL COMITENTE, además, deberá adjuntar a LA COSA TRANSPORTADA en original la AUTORIZACIÓN DE DESPACHO correctamente cumplimentada y firmada. Este documento se pondrá a disposición de EL USUARIO en el momento de la confirmación del servicio contratado. En el caso de que este documento no se haya adjuntado a LA COSA TRANSPORTADA debidamente conformado, no se garantiza el despacho de aduanas."
+                    ]
+                },
+                {
+                    "id": 127,
+                    "type": "p",
+                    "text": [
+                        "Si la cantidad que ha declarado EL COMITENTE como valor del contenido fuera incorrecta, BOSA SAS no se hará responsable de ningún cargo que pudiera aplicarse o derivarse."
+                    ]
+                },
+                {
+                    "id": 128,
+                    "type": "p",
+                    "text": [
+                        "En EL DOMINIO www.packappweb.com y/o LA PLATAFORMA, EL COMITENTE contrata y realiza el pago únicamente del coste de la recogida, el tránsito y la entrega de la Mercancía o la cosa transportada o que deba ser trasladada. BOSA SAS y EL DOMINIO www.packappweb.com  tanto como LA PLATAFORMA carece de control sobre las tasas o impuestos que pudieran surgir en cada país con respecto a la cosa transportada."
+                    ]
+                },
+                {
+                    "id": 129,
+                    "type": "p",
+                    "text": [
+                        "En los casos en que la cosa transportada tenga como destino un lugar fuera de Argentina, EL COMITENTE tiene la responsabilidad de averiguar si existen impuestos, cargos o impuestos aduaneros una vez la cosa transportada llegue al país de destino. La mejor forma de averiguarlo es consultando en la embajada o el consulado del país de destino."
+                    ]
+                },
+                {
+                    "id": 130,
+                    "type": "p",
+                    "text": [
+                        "EL DESTINATARIO de la cosa transportada debe hacerse cargo de todos los impuestos de aduana y tasas y cualquier otro cargo que imponga la autoridad aduanera del país de destino. En caso de no ser así, cuando BOSA SAS y/o EL DOMINIO www.packappweb.com y/o LA PLATAFORMA tenga conocimiento de dichos cargos no pagados, cobrará a EL USUARIO todos los impuestos de aduana, tasas u otros cargos que no hayan sido abonados por EL DESTINATARIO. El COMITENTE será el responsable de pagar todos estos cargos e impuestos si el receptor o Destinatario se niega a abonarlos. Muchos países aplicarán un recargo por la destrucción/abandono de la Mercancía si estos impuestos no fueran abonados. El COMITENTE también será responsable de este cargo."
+                    ]
+                },
+                {
+                    "id": 131,
+                    "type": "p",
+                    "text": [
+                        "Esta política se aplica también a las importaciones, en las que es EL DESTINATARIO el responsable de abonar todos los impuestos de aduana, derechos y otros cargos que pudieran surgir. Además, en el caso de importaciones, EL TRANSPORTADOR informará a EL COMITENTE, una vez realizado el despacho, de los costes de levantamiento de mercancía en el territorio nacional, cuyo importe deberá abonar en el momento de la entrega."
+                    ]
+                },
+                {
+                    "id": 132,
+                    "type": "p",
+                    "text": [
+                        "En el caso de que EL COMITENTE no satisfaga dicho pago en el plazo máximo de DOS (2) DÍAS laborables desde la comunicación del mismo, BOSA SAS se reserva el derecho de dejar en abandono la mercancía en la Aduana de Argentina. Esto implicaría posibles sanciones administrativas al importador (en este caso EL USUARIO) por las cuales BOSA SAS y EL DOMINIO www.packappweb.com así como LA PLATAFORMA no asumen ninguna responsabilidad dada su completa ajenidad a tales circunstancias y a los hechos y situaciones que las hubieren motivado."
+                    ]
+                },
+                {
+                    "id": 133,
+                    "type": "p",
+                    "text": [
+                        "En el caso de que hubiera que proceder a la devolución de LA COSA TRANSPORTADA desde fuera del país de origen, ésta se realizará aplicando la tasa de importación que corresponda a esa actividad. Las tarifas de importación no siempre son públicas. Es probable que ésta sea superior al precio abonado para la exportación de la Mercancía. El COMITENTE que contrató el Envío es responsable de asumir este cargo."
+                    ]
+                },
+                {
+                    "id": 134,
+                    "type": "st",
+                    "text": [
+                        "10. Cargos Adicionales al Servicio"
+                    ]
+                },
+                {
+                    "id": 135,
+                    "type": "p",
+                    "text": [
+                        "A continuación, se describen las circunstancias en las que son exigibles los cargos adicionales. El importe por abonar dependerá del servicio contratado."
+                    ]
+                },
+                {
+                    "id": 136,
+                    "type": "p",
+                    "text": [
+                        "Los Cargos Adicionales dependen de cada TRANSPORTADOR. Por este motivo, a BOSA SAS o a EL DOMINIO www.packappweb.com y a LA PLATAFORMA les resulta imposible fijar los importes exactos de los Cargos Adicionales."
+                    ]
+                },
+                {
+                    "id": 137,
+                    "type": "p",
+                    "text": [
+                        "EL USUARIO acepta que BOSA SAS, a EL DOMINIO www.packappweb.com y a LA PLATAFORMA están autorizados a cargar y cobrar los recargos automáticamente por el mismo método de pago utilizado por EL COMITENTE en el momento de contratar el servicio."
+                    ]
+                },
+                {
+                    "id": 138,
+                    "type": "p",
+                    "text": [
+                        "Si no fuera posible realizar el pago con el método de pago original, las nombradas utilizarán todas las medidas posibles, incluidas las vías legales, para cobrar los cargos pendientes por parte de EL USUARIO."
+                    ]
+                },
+                {
+                    "id": 139,
+                    "type": "sst",
+                    "text": [
+                        "10.1 Discordancia Peso/Volumen Declarado"
+                    ]
+                },
+                {
+                    "id": 140,
+                    "type": "p",
+                    "text": [
+                        "Cuando declara el peso y las dimensiones de LA COSA TRANSPORTADA, EL COMITENTE abona por adelantado el importe correspondiente al peso y las medidas del servicio contratado. Es obligatorio que se introduzcan el peso y las dimensiones exactas de cada paquete."
+                    ]
+                },
+                {
+                    "id": 141,
+                    "type": "p",
+                    "text": [
+                        "Todas LAS COSAS TRANSPORTADAS son pesada y medidas varias veces por EL TRANSPORTADOR."
+                    ]
+                },
+                {
+                    "id": 142,
+                    "type": "p",
+                    "text": [
+                        "Si LA COSA TRANSPORTADA tiene un peso o volumen superior al declarado en el momento de realizar el envío, éste podría ser retenido, sufrir retrasos en la recogida, en el tránsito o en entrega, o ser devuelto a origen."
+                    ]
+                },
+                {
+                    "id": 143,
+                    "type": "p",
+                    "text": [
+                        "BOSA SAS a través de EL DOMINIO www.packappweb.com y/o LA PLATAFORMA realizará un cargo en la cuenta del cliente a través del mismo método de pago utilizado para contratar, el COMITENTE recibirá una comunicación vía email sobre dicho cargo."
+                    ]
+                },
+                {
+                    "id": 144,
+                    "type": "p",
+                    "text": [
+                        "Este tipo de cargos se aplicarán en base a la tarifa que informe EL TRANSPORTADOR."
+                    ]
+                },
+                {
+                    "id": 145,
+                    "type": "p",
+                    "text": [
+                        "Estos cargos serán generados en el momento que EL TRANSPORTADOR informe de los valores reales, en el plazo máximo de 24 (veinticuatro horas) desde la contratación del servicio."
+                    ]
+                },
+                {
+                    "id": 146,
+                    "type": "sst",
+                    "text": [
+                        "10.2 Recogida o entrega Fallida"
+                    ]
+                },
+                {
+                    "id": 147,
+                    "type": "p",
+                    "text": [
+                        "Si la COSA TRANSPORTADA no estuviera lista para su recogida o entrega en el lugar y la hora acordados, se cobrará un recargo en concepto de “RECOGIDA FALLIDA” o “ENTREGA FALLIDA”. Este recargo será abonado por EL COMITENTE y su precio depende de la política del TRANSPORTADOR. Pueden derivarse Cargos Adicionales en el caso de que se produzcan recogidas fallidas o entregas fallidas o retrasos en la recogida o en la entrega por razones imputables al Remitente o al Destinatario y que no estuvieran cubiertas/incluidas en el servicio contratado."
+                    ]
+                },
+                {
+                    "id": 148,
+                    "type": "sst",
+                    "text": [
+                        "10.3 Entregas Adicionales"
+                    ]
+                },
+                {
+                    "id": 149,
+                    "type": "p",
+                    "text": [
+                        "En caso de que EL TRANSPORTADOR haya agotado los intentos de entrega previstos por tipo de servicio y según sus condiciones operativas (en la mayoría de los casos se realiza solo un primer intento salvo que algo distinto sea acordado con EL TRANSPORTADOR de forma particular previamente). Todo intento de entrega adicional conlleva un cargo que dependerá de la política del TRANSPORTADOR."
+                    ]
+                },
+                {
+                    "id": 150,
+                    "type": "st",
+                    "text": [
+                        "11. Formas de Pago"
+                    ]
+                },
+                {
+                    "id": 151,
+                    "type": "p",
+                    "text": [
+                        "Las formas canales o medios de pago aceptados por BOSA SAS para estos servicios resultantes de la libre concurrencia de oferentes y demandantes registrados en EL DOMINIO www.packappweb.com y/o LA PLATAFORMA serán las que se encuentren disponibles en LA PLATAFORMA al momento de contratación."
+                    ]
+                },
+                {
+                    "id": 152,
+                    "type": "st",
+                    "text": [
+                        "12. Gestión de reclamaciones"
+                    ]
+                },
+                {
+                    "id": 153,
+                    "type": "sst",
+                    "text": [
+                        "12.1 Responsabilidad máxima de BOSA SAS Y/O EL DOMINIO www.packappweb.com y/o LA PLATAFORMA."
+                    ]
+                },
+                {
+                    "id": 154,
+                    "type": "p",
+                    "text": [
+                        "La responsabilidad máxima de BOSA SAS Y/O EL DOMINIO www.packappweb.com y/o LA PLATAFORMA, se regirá por lo dispuesto en el orden jurídico y el sistema legal argentino y, en cuanto resultare pertinente, por la legislación internacional en lo pertinente a los servicios de traslado de cosas ofrecidos por EL TRANSPORTADOR en cada caso y los TERMINOS Y CONDICIONES que BOSAS SAS establezca y/o modifique y las política declaradas por el TRANSPORTADOR."
+                    ]
+                },
+                {
+                    "id": 155,
+                    "type": "p",
+                    "text": [
+                        "Por la naturaleza del servicio (intermediación entre dos partes TRANSPORTISTAS Y COMITENTES) ofrecido por la PLATAFORMA, www.packappweb.com pondrá a disposición de los usuarios modalidades y plazos para realizar reclamaciones por daños y pérdidas de las mercancías sin hacerse responsable por las mismas. De todas maneras, PACKAPP hará los máximos esfuerzos para que el inconveniente logré resolverse."
+                    ]
+                },
+                {
+                    "id": 156,
+                    "type": "sst",
+                    "text": [
+                        "12.2 Modalidad y plazos de reclamación por Daños o Pérdidas"
+                    ]
+                },
+                {
+                    "id": 157,
+                    "type": "p",
+                    "text": [
+                        "Ni BOSA SAS ni EL DOMINIO www.packappweb.com ni LA PLATAFORMA podrá identificar a EL USUARIO si éste remitiera una reclamación desde una cuenta de correo electrónico distinta de la que detalló en TUS DATOS. No obstante, el Usuario puede otorgar el acceso a la reclamación a terceros, siempre que se aporte DECLARACIÓN JURADA otorgando la autorización."
+                    ]
+                },
+                {
+                    "id": 158,
+                    "type": "p",
+                    "text": [
+                        "En el caso de tener que realizar UNA RECLAMACIÓN, EL USUARIO siempre debe cursarla a través del PORTAL DE AYUDA donde deberá completar un FORMULARIO DE RECLAMACIÓN POR ESCRITO. BOSA SAS y/o EL DOMINIO www.packappweb.com  le podrán ayudar y/o aconsejar para realizar todos los trámites."
+                    ]
+                },
+                {
+                    "id": 159,
+                    "type": "p",
+                    "text": [
+                        "Todas LAS RECLAMACIONES por pérdidas, daños ocultos o no aparentes en LA COSA TRANSPORTADA deberán iniciarse dentro de plazos previstos a continuación, los cuales serán computados desde el día siguiente al de su entrega en el LUGAR DE DESTINO:"
+                    ]
+                },
+                {
+                    "id": 160,
+                    "type": "table",
+                    "text": [
+                        {
+                            "headers": ["Tipo de Transporte", "Plazo"],
+                            "data": [
+                                ["Transporte terrestre nacional", "7 días"],
+                                ["Transporte terrestre internacional", "7 días"],
+                                ["Transporte aéreo nacional ", "10 días"],
+                                ["Transporte aéreo internacional ", "14 días"],
+                                ["Transporte marítimo nacional", "24 horas"],
+                                ["Transporte marítimo internacional", "3 días"]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 161,
+                    "type": "p",
+                    "text": [
+                        "En caso de que la pérdida o el daño en LA COSA TRANSPORTADA sea manifiesto, EL DESTINATARIO deberá manifestar expresamente su RESERVA en el mismo momento de la entrega, haciendo constar sus reservas en el ALBARÁN DE ENTREGA o documento equivalente usual para amparar la circulación de LA COSA TRANSPORTADA dentro de la República Argentina, como podrían ser: carta de porte o PDA (Tablet) de EL TRANSPORTADOR. Para tal propósito, éste se obliga a ofrecer, facilitar y poner a disposición del recipiendario tal documento y el soporte que lo contiene."
+                    ]
+                },
+                {
+                    "id": 162,
+                    "type": "p",
+                    "text": [
+                        "EL DESTINATARIO debe anotar en tal documento de entrega que lo ha RECIBIDO “CON DAÑOS”. Si en el DOCUMENTO QUE ACREDITA LA ENTREGA DE LA COSA TRANSPORTADA aparece como entregado sin ninguna observación en disconformidad, su reclamación por daños no podrá ser atendida de forma satisfactoria."
+                    ]
+                },
+                {
+                    "id": 163,
+                    "type": "p",
+                    "text": [
+                        "En cualquier caso, EL USUARIO que decida reclamar, deberá asegurarse que EL DESTINATARIO o recipiendario conserve LA COSA TRANSPORTADA y su embalaje a disposición de peritaje, salvo que desde BOSA SAS o desde EL DOMINIO www.packappweb.com -sea en forma directa o a través de LA PLATAFORMA- se faciliten instrucciones por escrito en otro sentido o en sentido contrario. LA COSA TRANSPORTADA reclamada por presentar DAÑOS, debe estar disponible para su inspección en el estado en el que fue entregado, y en la dirección en la que se entregó. Si el artículo ha sido manipulado, reparado o si no se ha conservado el embalaje o evidenciare la intervención de personas ajenas a la relación convenida de traslado de la cosa, la reclamación será rechazada."
+                    ]
+                },
+                {
+                    "id": 164,
+                    "type": "p",
+                    "text": [
+                        "En caso de retraso, deberán formularse las reservas escritas en el plazo de VEINTIÚN (21) días desde el siguiente al de la entrega del Envío al Destinatario, entendiendo por retraso, aquellas ENTREGAS GARANTIZADAS no realizadas en la fecha establecida por causas imputables a EL TRANSPORTADOR o el medio elegido por éste para cumplir el cometido a su cargo y que lo obliga intuitu personae."
+                    ]
+                },
+                {
+                    "id": 165,
+                    "type": "p",
+                    "text": [
+                        "No se aceptará ninguna reclamación realizada fuera de los referidos plazos o cuando no se hubieren cumplido previamente por EL REMITENTE las obligaciones prefijadas en el presente contrato. Finalizada la búsqueda activa de LA COSA TRANSPORTADA pasaría a búsqueda pasiva. Si EL ENVÍO fuera localizado con posterioridad, se pondría en conocimiento de EL USUARIO."
+                    ]
+                },
+                {
+                    "id": 166,
+                    "type": "p",
+                    "text": [
+                        "Para dar a trámite cualquier reclamo, EL USUARIO debe contactar a través del PORTAL DE AYUDA y siempre desde la cuenta de correo que se introdujo como USUARIO del pedido."
+                    ]
+                },
+                {
+                    "id": 167,
+                    "type": "p",
+                    "text": [
+                        "BOSA SAS o EL DOMINIO www.packappweb.com o LA PLATAFORMA una vez recibida la reclamación, solicitará la documentación que acredite el daño o pérdida:"
+                    ]
+                },
+                {
+                    "id": 168,
+                    "type": "p",
+                    "text": [
+                        "1. Cumplimentar EL FORMULARIO DE RECLAMO (tras recibir la reclamación el Dpto. Atención al Cliente dará acceso a EL USUARIO)."
+                    ]
+                },
+                {
+                    "id": 169,
+                    "type": "p",
+                    "text": [
+                        "2. Albarán recogida de EL TRANSPORTADOR firmado por el MISMO (salvo casos excepcionales). LA PLATAFORMA FACILITARÁ A EL TRANSPORTADOR UN MODELO DE RECIBO DE ENTREGA DE LA COSA TRANSPORTADA QUE EL TRANSPORTADOR PODRÁ USAR O NO."
+                    ]
+                },
+                {
+                    "id": 170,
+                    "type": "p",
+                    "text": [
+                        "3. Factura comercial (compra/venta) de la cosa transportada, o ticket de compra. Esta siempre deberá reflejar los datos coincidentes entre remitente y destinatario, en caso de que el ordenante no sea el remitente de la cosa transportada deberá remitir escrito relatando relación entre las tres partes."
+                    ]
+                },
+                {
+                    "id": 171,
+                    "type": "p",
+                    "text": [
+                        "4. En caso de rotura, además, imágenes de la cosa transportada y su embalaje al momento de su recepción:"
+                    ]
+                },
+                {
+                    "id": 172,
+                    "type": "p",
+                    "text": [
+                        "4.1 Foto de la cosa dañada en su totalidad: la foto debe mostrar el daño en su totalidad y no solo un detalle. Si el daño no es perceptible en una toma general, será necesario añadir una imagen más del artículo donde se muestre éste. En caso de que se encuentre más de un artículo dañado, realizar la foto agrupando todos los artículos en una sola imagen."
+                    ]
+                },
+                {
+                    "id": 173,
+                    "type": "p",
+                    "text": [
+                        "4.2 Foto del embalaje exterior, incluyendo etiqueta de la empresa de transporte: la foto debe mostrar que el envío se ha realizado con la empresa de transporte y que la reclamación corresponde al envío contratado. La foto será tomada a cierta distancia donde sea visible la etiqueta del envío."
+                    ]
+                },
+                {
+                    "id": 174,
+                    "type": "p",
+                    "text": [
+                        "4.3 Foto de la cosa trasladada con embalaje interior: la foto debe mostrar que el embalaje utilizado ha protegido el contenido durante el transporte. Imagen de la cosa dañada colocada dentro del embalaje, tal y como llegó a EL DESTINATARIO originalmente."
+                    ]
+                },
+                {
+                    "id": 175,
+                    "type": "p",
+                    "text": [
+                        "5. Albarán de entrega o documentación equivalente con validez legal en la República Argentina, con reseñas precisas anotadas por EL DESTINATARIO o RECIPIENDARIO en caso de daño."
+                    ]
+                },
+                {
+                    "id": 176,
+                    "type": "p",
+                    "text": [
+                        "6. Presupuesto de reparación de daños, si procede (sólo en caso de roturas)"
+                    ]
+                },
+                {
+                    "id": 177,
+                    "type": "p",
+                    "text": [
+                        "A falta de cualquier documento de los mencionados anteriormente las actuaciones se encontrarán INCOMPLETAS y por tanto no podrá tramitarse la reclamación."
+                    ]
+                },
+                {
+                    "id": 178,
+                    "type": "p",
+                    "text": [
+                        "En relación con las reclamaciones, deben tenerse en cuenta los siguientes puntos:"
+                    ]
+                },
+                {
+                    "id": 179,
+                    "type": "p",
+                    "text": [
+                        "6.1. En el caso de que un artículo dañado no pudiera repararse, EL USUARIO RECLAMANTE debe acreditarlo mediante la presentación de un documento escrito por un técnico especialista."
+                    ]
+                },
+                {
+                    "id": 180,
+                    "type": "p",
+                    "text": [
+                        "6.2 EL USUARIO que formaliza una reclamación asume desde ese momento su responsabilidad hacia la compañía de seguros, por lo que cualquier intento de fraude o falsedad documental o cualquiera otra maniobra ardidosa será total y exclusivamente responsabilidad de EL USUARIO a todos los efectos legales y administrativos."
+                    ]
+                },
+                {
+                    "id": 181,
+                    "type": "p",
+                    "text": [
+                        "6.3 En cada situación formalizada, se considerará que BOSA SAS y/o EL DOMINIO www.packappweb.com y/o LA PLATAFORMA podrá necesitar un máximo de 7 días para revisar los detalles de la reclamación antes de ponerse en contacto con EL USUARIO y ofrecerle una respuesta escrita."
+                    ]
+                },
+                {
+                    "id": 182,
+                    "type": "p",
+                    "text": [
+                        "6.4. Una vez que la reclamación haya sido admitida a trámite y se encuentre en curso, los plazos de presentación de documentación serán los siguientes:"
+                    ]
+                },
+                {
+                    "id": 183,
+                    "type": "p",
+                    "text": [
+                        "EXTRAVÍOS: UN (1) año desde la fecha de recogida de la mercancía."
+                    ]
+                },
+                {
+                    "id": 184,
+                    "type": "p",
+                    "text": [
+                        "FALTAS DE CONTENIDO: Imágenes datadas DOS (2) MESES desde la fecha de entrega de la mercancía. Resto documentos UN (1) AÑO desde la fecha de recogida."
+                    ]
+                },
+                {
+                    "id": 185,
+                    "type": "p",
+                    "text": [
+                        "DAÑOS: Imágenes DOS (2) MESES desde la fecha de entrega de la mercancía. Resto documentos UN (1) AÑO desde la fecha de recogida."
+                    ]
+                },
+                {
+                    "id": 186,
+                    "type": "p",
+                    "text": [
+                        "6.5. EL PLAZO DE RESOLUCIÓN de una reclamación por pérdida o daño, es de NOVENTA (90) días. El plazo comenzará a computarse desde el momento en que el expediente se encuentre completo y sea trasladado a LA ASEGURADORA."
+                    ]
+                },
+                {
+                    "id": 187,
+                    "type": "p",
+                    "text": [
+                        "6.6. Se emitirá CARTA DE LIQUIDACIÓN en concepto de indemnización por la cosa trasladada y abono de los portes y se solicitará a EL USUARIO notifique fehacientemente los datos de la cuenta bancaria de su titularidad para acreditación en su cuenta de la indemnización resultante."
+                    ]
+                },
+                {
+                    "id": 188,
+                    "type": "ol",
+                    "text": [
+                        "6.7. El tratamiento fiscal de LAS INDEMNIZACIONES por mercancía asegurada contra daño, rotura, pérdida o extravío se ajustará a las siguientes REGLAS:",
+                        {
+                            "type": "ol",
+                            "content": [
+                                "1) Surgirán del seguro contratado u ofrecido por o a instancias de BOSA SAS y por hasta el monto máximo previsto.",
+                                "2) Los pagos liquidados a Responsables Inscriptos se abonarán por transferencia bancaria sin incluir este impuesto.",
+                                "3) Los pagos liquidados a sujetos que no sean Responsables Inscriptos se abonan también sin incluir este impuesto, por tratarse de una compensación por originada en una reposición o reparación de los bienes asegurados dañados o robados.",
+                                "4) El pago será realizado a través del mismo medio o canal de pago utilizado durante la contratación del servicio.",
+                                "5) No se aceptarán reclamaciones por LA COSA TRANSPORTADA sobre los cuales EL USUARIO, hubiere solicitado la paralización del servicio y/o el retorno de la cosa trasladada una vez que ésta haya sido entregada a EL TRANSPORTADOR, ya que no se puede garantizar que se devuelva a su origen una vez que ésta ha comenzado su tránsito. No obstante, BOSSA SAS y/o EL DOMINIO www.packappweb.com harán lo que esté a su alcance para intentar cancelar la entrega, si el Usuario lo hubiere solicitado con un margen razonable de tiempo."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 189,
+                    "type": "sst",
+                    "text": [
+                        "12.3 Coberturas"
+                    ]
+                },
+                {
+                    "id": 190,
+                    "type": "p",
+                    "text": [
+                        "LA COBERTURA DE SEGURO es aplicable exclusivamente en caso de extravío, daños evidentes reflejados en albarán de entrega y/o documentación equivalente válida en Argentina, y daños no aparentes, siempre que tras el peritaje se determine que éstos han sido causados durante el transporte de la mercancía."
+                    ]
+                },
+                {
+                    "id": 191,
+                    "type": "ssst",
+                    "text": [
+                        "12.3.1 Cobertura: Seguro de COSA TRANSPORTADA (Extravíos / Daños)"
+                    ]
+                },
+                {
+                    "id": 192,
+                    "type": "p",
+                    "text": [
+                        "Todos los servicios incluyen la cobertura que expresa el punto 12.1 Responsabilidad máxima de www.packappweb.com, salvo aquellos cuyo contenido (total o parcial) se encuentre recogido en el punto 7. Artículos Prohibidos y/o Restringidos, que viajan bajo conformidad de EL USUARIO a su cuenta y riesgo. En todos los casos para formular la reclamación es imprescindible que el usuario se ajuste al punto 12.2 Modalidad y plazos de reclamación por Daños o Pérdidas."
+                    ]
+                },
+                {
+                    "id": 193,
+                    "type": "p",
+                    "text": [
+                        "El USUARIO que desee contratar una cobertura por encima del valor de $80.000,00 (OCHENTAMIL) deberá solicitarlo a EL TRANSPORTADOR posteriormente a contratar el servicio de traslado a través de LA PLATAFORMA."
+                    ]
+                },
+                {
+                    "id": 194,
+                    "type": "p",
+                    "text": [
+                        "Cuando se contrata una cobertura adicional, ésta se refiere a la COSA TRANSPORTADA para el que se contrató, independientemente del número de bultos que incluya ese Envío. En caso de siniestro, ésta será la cobertura máxima reclamable bajo justificación documental del valor, aplicándose la siguiente regla de acuerdo con la Ley Nº. 17.418 (LEY DE SEGURO), texto vigente."
+                    ]
+                },
+                {
+                    "id": 195,
+                    "type": "p",
+                    "text": [
+                        "LA PLATAFORMA EN LOS CASOS MENCIONADOS Y SIEMPRE Y CUANDO ESTÉ DEBIDAMENTE ACREDITADO EL SINIESTRO Y EL VALOR REAL NO DIFIERA DEL DECLARADO DE LA COSA TRANSPORTADA RESPONDERÁ POR EL MONTO DE HASTA $80.000,00 (OCHENTA MIL)."
+                    ]
+                },
+                {
+                    "id": 196,
+                    "type": "p",
+                    "text": [
+                        "EL USUARIO COMITENTE es el responsable de indicar la cantidad asegurada, la cual deberá ser evidenciada con facturas de la mercancía, en caso de reclamación."
+                    ]
+                },
+                {
+                    "id": 197,
+                    "type": "p",
+                    "text": [
+                        "Packapp es totalmente ajena a cualquier responsabilidad emergente o derivada de contratación de cobertura adicional y/o de cualquiera otra convención de las partes o de los usuarios entre sí. PACKAPP se limita a ofrecer las facilidades de su plataforma para que sus usuarios registrados puedan realizar sus acuerdos negóciales entre sí."
+                    ]
+                },
+                {
+                    "id": 198,
+                    "type": "p",
+                    "text": [
+                        "La cobertura será efectiva para todos los servicios contratados que se encuentren asegurados y por hasta el monto máximo previsto en los TÉRMINOS Y CONDICIONES, en las CONDICIONES GENERALES y demás documentación emitida por BOSA SAS y publicada en EL DOMINIO www.packappweb.com y/o LA PLATAFORMA o por cualquier otro medio."
+                    ]
+                },
+                {
+                    "id": 199,
+                    "type": "p",
+                    "text": [
+                        "Estas estipulaciones resultarán aplicables siempre y cuando la mercancía o la cosa transportada no se encuentre en la LISTA DE ARTÍCULOS PROHIBIDOS O RESTRINGIDOS, ni se trate de daños producidos por embalaje insuficiente o deficiente, en cuyo caso, EL USUARIO acepta en el momento de la contratación, bajo su exclusivo cargo y riesgo, que viajen sin cobertura alguna de seguro."
+                    ]
+                },
+                {
+                    "id": 200,
+                    "type": "p",
+                    "text": [
+                        "En caso de daño oculto o cualquier otro vicio oculto que el cliente reclame en el plazo de 7 días computados desde la fecha de la entrega de la COSA TRANSPORTADA, y aporte tanta información le sea requerida por el PORTAL DEL AYUDA en los plazos que EL TRANSPORTADOR estipula en su operativa, BOSA SAS Y/O EL DOMINIO www.packapweb.com Y/O LA PLATAFORMA no asumirán ninguna responsabilidad."
+                    ]
+                },
+                {
+                    "id": 201,
+                    "type": "p",
+                    "text": [
+                        "La cobertura sólo tendrá efecto en caso de que el Usuario se encuentre al día en el pago de todos los servicios o cargos adicionales a los mismos."
+                    ]
+                },
+                {
+                    "id": 202,
+                    "type": "p",
+                    "text": [
+                        "Si existieren importes pendientes de liquidar en el momento de la reclamación, BOSA SAS responderá exclusivamente hasta los límites marcados según el tránsito."
+                    ]
+                },
+                {
+                    "id": 203,
+                    "type": "ssst",
+                    "text": [
+                        "12.3.2 Artículos sin cobertura"
+                    ]
+                },
+                {
+                    "id": 204,
+                    "type": "p",
+                    "text": [
+                        "Los siguientes artículos, sin estar terminantemente prohibido su transporte, no están cubiertos por ningún seguro, ni las coberturas establecidas en las legislaciones nacionales o internacionales relativas al transporte, ni por nuestro seguro gratuito incluido en el precio de nuestra comisión, quedarán excluidos de cobertura todos aquellos envíos que contengan productos que figuren en: LISTA DE ARTÍCULOS SIN COBERTURA."
+                    ]
+                },
+                {
+                    "id": 205,
+                    "type": "sst",
+                    "text": [
+                        "12.3 Embalaje utilizado"
+                    ]
+                },
+                {
+                    "id": 206,
+                    "type": "p",
+                    "text": [
+                        "El Usuario es el responsable de garantizar que el embalaje es el adecuado para el transporte de la cosa por ser trasladada. Si packapp detecta que el embalaje es insuficiente o inadecuado no responderá por ninguna contingencia."
+                    ]
+                },
+                {
+                    "id": 207,
+                    "type": "sst",
+                    "text": [
+                        "12.3 Embalaje utilizado"
+                    ]
+                },
+                {
+                    "id": 208,
+                    "type": "p",
+                    "text": [
+                        "El Usuario es el responsable de garantizar que el embalaje es el adecuado para el transporte de la cosa por ser trasladada. Si packapp detecta que el embalaje es insuficiente o inadecuado no responderá por ninguna contingencia."
+                    ]
+                },
+                {
+                    "id": 209,
+                    "type": "st",
+                    "text": [
+                        "13. Cancelación de Pedidos"
+                    ]
+                },
+                {
+                    "id": 210,
+                    "type": "p",
+                    "text": [
+                        "BOSA SAS y/o EL DOMINIO www.Packappweb.com y/o LA PLATAFORMA no realizará ningún reembolso por cancelación de servicios, salvo en aquellos casos expresados en nuestra POLÍTICA DE CANCELACIÓN."
+                    ]
+                },
+                {
+                    "id": 211,
+                    "type": "p",
+                    "text": [
+                        "Cuando un USUARIO decida cancelar el pedido, tras realizar el pago del servicio de transporte, éste deberá contactar con BOSA SAS y/o EL DOMINIO www.Packappweb.com y/o LA PLATAFORMA y comunicarlo por escrito, a través del PORTAL DE AYUDA, desde la misma dirección de e-mail que utilizó en el momento de la contratación del mismo, en un plazo de 15 días desde el día de la contratación del envío y en tanto LA COSA TRANSPORTADA no se encuentre en circulación."
+                    ]
+                },
+                {
+                    "id": 212,
+                    "type": "p",
+                    "text": [
+                        "BOSA SAS y/o EL DOMINIO www.Packappweb.com y/o LA PLATAFORMA, podrá cancelar en cualquier momento y sin previo aviso cualquier servicio contratado por cualquier USUARIO."
+                    ]
+                },
+                {
+                    "id": 213,
+                    "type": "p",
+                    "text": [
+                        "En todos los casos, EL PORTAL DE AYUDA informará a EL USUARIO de la cancelación del servicio."
+                    ]
+                },
+                {
+                    "id": 214,
+                    "type": "p",
+                    "text": [
+                        "En caso de que la CANCELACIÓN DEL ENVÍO se produzca antes de que EL TRANSPORTADOR haya iniciado el desplazamiento para la recogida de la COSA TRANSPORTADA, EL USUARIO tendrá derecho a recibir un cupón del mismo valor del envío."
+                    ]
+                },
+                {
+                    "id": 215,
+                    "type": "p",
+                    "text": [
+                        "En el caso de que la solicitud de cancelación de COSA TRANSPORTADA se produzca después de que EL TRANSPORTADOR haya recogido la cosa por ser trasladada en el LUGAR DE RECOGIDA, pero antes de que se haya efectuado la efectiva entrega en el Lugar de Destino, no se podrá garantizar la paralización y retorno de LA COSA TRANSPORTADA por parte de BOSA SAS ni EL DOMINIO www.packappweb.com ni LA PLATAFORMA."
+                    ]
+                },
+                {
+                    "id": 216,
+                    "type": "p",
+                    "text": [
+                        "EL USUARIO no tendrá derecho, en ningún caso, a la devolución del precio del transporte contratado y tendrá que abonar por adelantado (en caso de que se produzca devolución) a BOSAS SAS los portes y demás rubros correspondientes al traslado de la COSA TRANSPORTADA de vuelta al Lugar de Recogida o a la dirección que indique el USUARIO Registrado."
+                    ]
+                },
+                {
+                    "id": 217,
+                    "type": "p",
+                    "text": [
+                        "EL USUARIO no podrá, en ningún caso, cancelar EL ENVÍO con posterioridad a la entrega en el Lugar de Destino."
+                    ]
+                },
+                {
+                    "id": 218,
+                    "type": "st",
+                    "text": [
+                        "14. Derecho al arrepentimiento"
+                    ]
+                },
+                {
+                    "id": 219,
+                    "type": "p",
+                    "text": [
+                        "LOS USUARIOS podrán hacer uso del DERECHO AL ARREPENTIMIENTO en los términos del art. 34 de la ley N° 24.240 (DEFENSA DEL CONSUMIDOR Y DEL USUARIO) y art. 1.110 de la Ley Nac. Nº. 26.944 (CÓDIGO CIVIL Y COMERCIAL DE LA NACIÓN)."
+                    ]
+                },
+                {
+                    "id": 220,
+                    "type": "st",
+                    "text": [
+                        "15. Exoneración de responsabilidad"
+                    ]
+                },
+                {
+                    "id": 221,
+                    "type": "p",
+                    "text": [
+                        "Pueden darse retrasos en el servicio, que eximirán de toda responsabilidad a BOSA SAS y/o a EL DOMINIO www.packappweb.com y/o a LA PLATAFORMA, cuando se expliquen por alguno de los siguientes motivos:"
+                    ]
+                },
+                {
+                    "id": 222,
+                    "type": "p",
+                    "text": [
+                        "15.1. Guerra, guerra civil, invasión, acto de enemigo extranjero, hostilidades (ya sea guerra declarada o no), rebelión, revolución, insurrección o usurpación de poder, saqueo, pillaje."
+                    ]
+                },
+                {
+                    "id": 223,
+                    "type": "p",
+                    "text": [
+                        "15.2. Radiaciones ionizantes o contaminación por radioactividad."
+                    ]
+                },
+                {
+                    "id": 224,
+                    "type": "p",
+                    "text": [
+                        "15.3. Propiedades radioctivas, tóxicas, explosivas, peligrosas u otras de cualquier componente nuclear explosivo, y/o de ondas de presión causadas por aviones y otros aparatos aéreos que viajan a velocidades sónicas o supersónicas."
+                    ]
+                },
+                {
+                    "id": 225,
+                    "type": "p",
+                    "text": [
+                        "15.4. Huelgas, manifestaciones, celebraciones de eventos de carácter Provincial, Regional o Nacional en la zona de recogida, tránsito o entrega."
+                    ]
+                },
+                {
+                    "id": 226,
+                    "type": "p",
+                    "text": [
+                        "15.5. Catástrofes naturales, y condiciones meteorológicas adversas, que impidan la correcta circulación de los vehículos encomendados al transporte de la mercancía."
+                    ]
+                },
+                {
+                    "id": 227,
+                    "type": "p",
+                    "text": [
+                        "15.6. La ausencia, insuficiencia o incorrecto embalaje de la mercancía o la cosa trasladada."
+                    ]
+                },
+                {
+                    "id": 228,
+                    "type": "p",
+                    "text": [
+                        "15.7. La falta de información para la realización de la entrega o recogida."
+                    ]
+                },
+                {
+                    "id": 229,
+                    "type": "p",
+                    "text": [
+                        "15.8. Los envíos hacia y desde Áreas Remotas, tanto a nivel nacional como internacional."
+                    ]
+                },
+                {
+                    "id": 230,
+                    "type": "p",
+                    "text": [
+                        "15.9 Envíos contratados con un peso o medidas inferiores a la realidad."
+                    ]
+                },
+                {
+                    "id": 231,
+                    "type": "p",
+                    "text": [
+                        "15.10. Los retrasos en los servicios producidos por cualquiera de los puntos detallados no podrán ser objeto de reclamación, compensación o devolución de importe."
+                    ]
+                },
+                {
+                    "id": 232,
+                    "type": "p",
+                    "text": [
+                        "En todos los casos, LOS USUARIOS mantendrán a BOSA SAS y a EL DOMINIO www.packappweb.com y a LA PLATAFORMA absolutamente indemnes de toda reclamación relacionada con los puntos precedentes."
+                    ]
+                },
+                {
+                    "id": 233,
+                    "type": "st",
+                    "text": [
+                        "16. Restricción de acceso a los servicios"
+                    ]
+                },
+                {
+                    "id": 234,
+                    "type": "p",
+                    "text": [
+                        "BOSA SAS y/o EL DOMINIO www.packappweb.com y/o LA PLATAFORMA pueden, en cualquier momento y sin aviso previo, restringir los accesos de EL USUARIO y/o negarse a mantener correspondencia con EL USUARIO, cuando:"
+                    ]
+                },
+                {
+                    "id": 235,
+                    "type": "p",
+                    "text": [
+                        "16.1. Exista un cambio normativo o legal que limite la capacidad de cualquiera de las nombradas para proporcionar los accesos en trato."
+                    ]
+                },
+                {
+                    "id": 236,
+                    "type": "p",
+                    "text": [
+                        "16.2. Exista algún evento fuera del control de las nombradas que impida ofrecer tales accesos como, (por ejemplo y sin carácter limitativo): dificultades técnicas, problemas de capacidad, problemas de comunicación y otros."
+                    ]
+                },
+                {
+                    "id": 237,
+                    "type": "p",
+                    "text": [
+                        "16.3. EL USUARIO esté abusando de esos accesos o su actuación sea contraria a las TÉRMINOS Y CONDICIONES y/o a las CONDICIONES GENERALES aquí expuestos."
+                    ]
+                },
+                {
+                    "id": 238,
+                    "type": "p",
+                    "text": [
+                        "16.4. El Usuario esté incumpliendo cualquiera de las normas establecidas en las CONDICIONES, incluidas las CONDICIONES DE USO DEL SITIO WEB y/o las Condiciones Particulares que en cualquier caso se incluyan."
+                    ]
+                },
+                {
+                    "id": 239,
+                    "type": "st",
+                    "text": [
+                        "17. Régimen jurídico supletorio"
+                    ]
+                },
+                {
+                    "id": 240,
+                    "type": "p",
+                    "text": [
+                        "En todo lo no previsto en las presentes CONDICIONES GENERALES, se estará a lo predispuesto en el orden jurídico vigente en Argentina, en el sistema legal y derecho positivo argentino y -en cuanto correspondiere o resultare aplicable- a las normas internacionales concernientes a los servicios de transporte de cosas o mercancías ofrecidos por EL TRANSPORTADOR a través de EL DOMINIO www.packappweb.com y/o LA PLATAFORMA que operare como un subdominio de éste o bajo cualquier otro diseño de programación."
+                    ]
+                },
+                {
+                    "id": 241,
+                    "type": "st",
+                    "text": [
+                        "18. Legislación aplicable"
+                    ]
+                },
+                {
+                    "id": 242,
+                    "type": "p",
+                    "text": [
+                        "El presente contrato es ley entre las partes en cuanto fuere materia de derechos disponibles y, en todo lo demás, incluidos aspectos relativos a interpretación, validez y ejecución, se somete a las disposiciones de la Ley Nacional Nº. 26.994 (CÓDIGO CIVIL Y COMERCIAL DE LA REPÚBLICA ARGENTINA), texto vigente al momento de su celebración."
+                    ]
+                },
+                {
+                    "id": 243,
+                    "type": "p",
+                    "text": [
+                        "Para la resolución de toda eventual diferencia entre las partes, éstas se someten a la jurisdicción de los Juzgados y Tribunales que sean competentes de acuerdo con la legislación Argentina."
+                    ]
+                },
+                {
+                    "id": 244,
+                    "type": "st",
+                    "text": [
+                        "19. Divisibilidad de Cláusulas"
+                    ]
+                },
+                {
+                    "id": 245,
+                    "type": "p",
+                    "text": [
+                        "Si alguna cláusula de las presentes CONDICIONES GENERALES pudiera resultar no aplicable según la ley, la exigibilidad de cualquiera otra parte o cláusula de estas CONDICIONES GENERALES no se verá afectada."
+                    ]
+                }
+            ]
+        }
+    ]
+}

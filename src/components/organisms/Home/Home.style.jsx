@@ -1,0 +1,47 @@
+import { createStyles } from "@mantine/core";
+
+const useStyles = createStyles((theme) => {
+  return {
+    background: {
+      height: "100%",
+      zIndex: "-2",
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat",
+    },
+    title: {
+      fontFamily: "Inder",
+      fontSize: 40,
+      fontWeight: 400,
+      lineHeight: "50px",
+      [theme.fn.smallerThan("md")]: {
+        fontSize: 35,
+        lineHeight: "40px",
+      },
+      [theme.fn.smallerThan("sm")]: {
+        fontSize: 28,
+        lineHeight: "30px",
+      },
+      [theme.fn.smallerThan("xs")]: {
+        fontSize: 25,
+        lineHeight: "30px",
+      },
+    },
+    active: {
+      borderBottom: `1px solid ${theme.colors.orangePrimary[6]}`,
+    },
+    quantity: {
+      color: "#F39929",
+      fontWeight: 500,
+    },
+    shippingTypeButton: {
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      gap: 30,
+    },
+  };
+});
+const HomeStyle = (params) => useStyles(params);
+
+export default HomeStyle;
