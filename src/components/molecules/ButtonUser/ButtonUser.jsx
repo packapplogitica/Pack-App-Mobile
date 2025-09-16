@@ -10,6 +10,8 @@ export const ButtonUser = ({ item, itemMobile ,session}) => {
 
   const { classes } = useStyles();
 
+  console.log('la seesison',session)
+
   return (
     <DropDownMenu
       data={item}

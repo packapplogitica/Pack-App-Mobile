@@ -1,4 +1,4 @@
-import { signIn } from "next-auth/react";
+import { signIn, useSession } from "next-auth/react";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import { ButtonPackApp } from "@/components/atoms/ButtonPackApp/ButtonPackApp";
@@ -22,11 +22,15 @@ import Loader from "../Loader/Loader";
 import { useState } from "react";
 import GoogleButton from "react-google-button";
 import { showNotification } from "@/components/organisms/ShowNotification/ShowNotification";
+import { useSessionProvider } from "../../../context/SessionProvider"
 
 export const SigninForm = () => {
     const router = useRouter();
     const { classes } = useStyles();
     const [loading, setLoading] = useState(false);
+    // const { signIn: authSignIn } = useAuth(); // Usa el signIn del hook
+    const { login } = useSessionProvider()
+
     const isSmallerThanMd = useMediaQuery(
         `(max-width: ${theme.breakpoints.md}px)`
     );
@@ -76,49 +80,44 @@ export const SigninForm = () => {
     });
 
     const handleSignIn = async (method, credentials = {}) => {
+        if (method !== 'credentials') return; // Por ahora, solo credentials
+
         try {
-            setLoading(true);
+            // setLoading(true);
+            const result = await login(credentials.email, credentials.password);
+            console.log('la llaada',result)
 
-            const options = { redirect: false };
-            if (method === "credentials") {
-                options.email = credentials.email.toLowerCase();
-                options.password = credentials.password;
-            } else if (method === "google") {
-                options.callbackUrl = "/";
-            }
-
-            const result = await signIn(method, options);
-
-            if (result?.ok || result?.url) {
+            if (result.ok) {
                 showNotification({
-                    title: "Inicio de sesión exitoso",
-                    message: "Has iniciado sesión correctamente",
-                    type: "success",
-                    notificationStyles: notificationStyles,
+                    title: 'Inicio de sesión exitoso',
+                    message: 'Has iniciado sesión correctamente',
+                    type: 'success',
+                    // ... notificationStyles
                 });
-
-                if (method === "credentials") form.reset();
-                router.push(result?.url || "/");
-            } else if (result?.error) {
+                form.reset();
+                router.reload()
+                // router.push(result.url);
+            } else {
                 showNotification({
-                    title: "Oh no! Hay un error:",
+                    title: 'Oh no! Hay un error:',
                     message: result.error,
-                    notificationStyles: notificationStyles,
+                    // ... notificationStyles
                 });
             }
         } catch (error) {
+            console.error('el error',error)
             showNotification({
-                title: "Oh no! Hay un error:",
-                message: "Error al iniciar sesión",
-                notificationStyles: notificationStyles,
+                title: 'Oh no! Hay un error:',
+                message: 'Error al iniciar sesión',
+                // ... notificationStyles
             });
         } finally {
             setLoading(false);
         }
-    };
+    }
 
 
-    if (loading) return <Loader visible />;
+    // if (loading) return <Loader visible />;
 
     return (
         <PaddingBox>
@@ -173,7 +172,7 @@ export const SigninForm = () => {
                             </form>
 
                             <Box mt={12}>
-                               <GoogleButton label="Ingresar con Google" onClick={() => handleSignIn("google")} />
+                                <GoogleButton label="Ingresar con Google" onClick={() => handleSignIn("google")} />
                             </Box>
 
                             <Flex mt="xs" direction="column" gap={5}>

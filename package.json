@@ -12,6 +12,7 @@
     "@capacitor/cli": "^7.4.3",
     "@capacitor/core": "^7.4.3",
     "@capacitor/ios": "^7.4.3",
+    "@capacitor/preferences": "^7.0.2",
     "@emotion/react": "^11.11.1",
     "@emotion/server": "^11.11.0",
     "@mantine/carousel": "^6.0.19",

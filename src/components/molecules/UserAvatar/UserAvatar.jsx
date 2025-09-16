@@ -3,8 +3,9 @@ export const UserAvatar = ({ firstName, lastName }) => {
 
     const { classes } = useStyles();
     
-    const firstLetter = firstName[0]?.toUpperCase();
-    const secondLetter = lastName[0]?.toUpperCase();
+    console.log('el nombre',firstName)
+    const firstLetter = 'b'
+    const secondLetter = 'j'
 
     return (
         <div className={classes.avatarContainer}>

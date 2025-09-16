@@ -4,19 +4,23 @@ import { InfoCard } from "../atoms";
 import { SigninForm } from "../molecules";
 import { useSession } from "next-auth/react";
 import Loader from "../molecules/Loader/Loader";
+import { useCapacitorSession } from "../../hooks/useCapacitorSession";
+import { useSessionProvider } from "../../context/SessionProvider";
+// import { useAuth } from "@/hooks/useAuth";
 export const SigninPage = ({ data }) => {
-  const { status } = useSession();
+  // const { user ,loading} = useAuth();
   const router = useRouter();
+    const { session } = useSessionProvider();
 
   useEffect(() => {
-    if (status === 'authenticated') {
+    if (session) {
       router.push('/');
     }
-  }, [status, router]);
+  }, [session, router]);
 
-  if (status === "loading") {
-    return <Loader visible />;
-  }
+  // if (loading) {
+  //   return <Loader visible />;
+  // }
 
   return (
     <>

@@ -29,17 +29,6 @@ export async function handleServerSideAuth(context,slug,apiCall,isHomePage=false
         }
     }
     try {
-        // const currentDeploymentVersion = process.env.NEXT_PUBLIC_DEPLOYMENT_VERSION
-        // if (session && session.user.versionDeploy !== currentDeploymentVersion) {
-    
-        //    signOut();
-        //    // También puedes redirigir a una página personalizada, como un mensaje de "La sesión ha expirado"
-        //    return {
-        //      redirect: {
-        //        destination: '/signin', // o cualquier otra ruta que desees
-        //      },
-        //   }
-        // }
         const result = await apiCall(session?.user?.token);
         if (result?.error?.statusCode === 400) {
             return {

@@ -73,8 +73,6 @@ export default NextAuth({
           });
 
           const data = await response.json();
-          // console.log('la data', data)
-          // Store the backend token
           account.access_token = data.access_token;
           account.isRegistrationComplete = data.isRegistrationComplete;
           account.registrationStep = data.registrationStep;
@@ -85,6 +83,7 @@ export default NextAuth({
           return false;
         }
       }
+      console.log('la data',data)
 
       account.access_token = user.access_token?? user.token;
       account.isRegistrationComplete = user.isRegistrationComplete;

@@ -10,18 +10,18 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import { useSession } from "next-auth/react";
 import { ButtonUser } from "@/components/molecules/ButtonUser/ButtonUser";
-import { useEffect } from "react";
+import { use, useEffect } from "react";
+// import { useAuth } from "@/hooks/useAuth";
 
-export const HeaderComponent = ({ header }) => {
+export const HeaderComponent = ({ header,user}) => {
   const router = useRouter();
   const { secondaryLinks, logo, userItems } = header;
   const landingPage = router.pathname === "/nosotros";
   const { classes, cx } = useStyles({ landingPage });
   const  {data} = useSession();
+  //  const { user, loading } = useAuth();
 
-
-  const session = data?.user
-  
+  // console.log('el usuarios',useAuth())
   const Logo = () => {
     return (
       <Link
@@ -69,10 +69,10 @@ export const HeaderComponent = ({ header }) => {
       {/* <div className="ribbon">
         <span>Versión Beta</span>
       </div> */}
-      {session ? (
+      {user ? (
         <List listStyleType="none" className={classes.secondaryLinks}>
           <List.Item>
-            <ButtonUser item={userItems} session={session} />
+            <ButtonUser item={userItems} session={user} />
           </List.Item>
         </List>
       ) : (
