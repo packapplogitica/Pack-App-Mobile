@@ -1,12 +1,12 @@
 const nextPublicApiUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
 
 async function genericRequest(url, options = {}, parseJson = true) {
-    console.log(options)
+    // console.log(options)
   try {
     const response = await fetch(`${nextPublicApiUrl}${url}`, options);
-    console.log(response)
+    // console.log(response)
     const result = parseJson ? await response.json() : null;
-    console.log(options)
+    // console.log(options)
     if (!response.ok) {
       return {
         success: false,

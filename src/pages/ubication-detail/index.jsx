@@ -5,25 +5,26 @@ import { getSession } from "next-auth/react";
 const LocationMaps = ({ coords }) => {
   return (
     <>
-      <UbicationDetail coords={coords}/>
+    <h1>hgola</h1>
+      {/* <UbicationDetail coords={coords}/> */}
     </>
   );
 };
 
-export async function getServerSideProps(context) {
-  const latEntrega = context.query.latEntrega
-  const lngEntrega = context.query.lngEntrega
+// export async function getServerSideProps(context) {
+//   const latEntrega = context.query.latEntrega
+//   const lngEntrega = context.query.lngEntrega
 
-  const coords = {
-    latEntrega,
-    lngEntrega,
-  }
+//   const coords = {
+//     latEntrega,
+//     lngEntrega,
+//   }
   
-  return {
-    props: {
-      coords,
-    },
-  };
-}
+//   return {
+//     props: {
+//       coords,
+//     },
+//   };
+// }
 
 export default LocationMaps;

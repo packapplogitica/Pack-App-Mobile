@@ -9,10 +9,11 @@ import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import { useSession } from "next-auth/react";
-import { ButtonUser } from "@/components/molecules/ButtonUser/ButtonUser";
+import { ButtonUser } from "../../molecules/ButtonUser/ButtonUser";
 import { use, useEffect } from "react";
+import { useSessionProvider } from "../../../context/SessionProvider";
 // import { useAuth } from "@/hooks/useAuth";
-
+// src/components/molecules/ButtonUser/ButtonUser.jsx
 export const HeaderComponent = ({ header,user}) => {
   const router = useRouter();
   const { secondaryLinks, logo, userItems } = header;
@@ -20,6 +21,7 @@ export const HeaderComponent = ({ header,user}) => {
   const { classes, cx } = useStyles({ landingPage });
   const  {data} = useSession();
   //  const { user, loading } = useAuth();
+   const { session, getPreferences, } = useSessionProvider()
 
   // console.log('el usuarios',useAuth())
   const Logo = () => {
@@ -69,10 +71,10 @@ export const HeaderComponent = ({ header,user}) => {
       {/* <div className="ribbon">
         <span>Versión Beta</span>
       </div> */}
-      {user ? (
+      {session ? (
         <List listStyleType="none" className={classes.secondaryLinks}>
           <List.Item>
-            <ButtonUser item={userItems} session={user} />
+            <ButtonUser item={userItems} session={session.profile} />
           </List.Item>
         </List>
       ) : (

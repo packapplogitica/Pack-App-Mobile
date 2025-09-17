@@ -8,7 +8,6 @@ import { useDate } from "@/hooks/useDate";
 import { cancelOffer } from "../utils/orderActions";
 
 export const getFilteredAndSortedElements = ({ applications, orderCriteria, currentPage, itemsPerPage, searchQuery }) => {
-  console.log('la s apalications', applications)
   const filteredElements = applications?.filter(
     (element) =>
       element.id.toString().includes(searchQuery) ||

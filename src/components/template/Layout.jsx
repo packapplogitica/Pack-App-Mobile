@@ -3,6 +3,7 @@ import { Stack, ScrollArea } from "@mantine/core";
 import { FooterComponent, HeaderComponent } from "../organisms";
 import { useRouter } from 'next/navigation'; // en App Router
 import { useCapacitorSession } from "../../hooks/useCapacitorSession";
+import { useSessionProvider } from "../../context/SessionProvider";
 // import { useAuth } from "@/hooks/useAuth";
 
 export const Layout = ({ children, layout }) => {
@@ -12,8 +13,7 @@ export const Layout = ({ children, layout }) => {
 
   //  const { user, loading } = useAuth();
 
-  const { session, getPreferences, } = useCapacitorSession();
-  console.log('la sessiosn dentor del layout',session)
+  const { session, getPreferences, } = useSessionProvider()
   // if (loading) return <div>Cargando...</div>;
 
 

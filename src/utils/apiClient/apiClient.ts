@@ -1,77 +1,40 @@
-import { AxiosRequestConfig, AxiosResponse, isAxiosError } from "axios";
-import axiosClient from "../axios";
-import logger from "../logger/logger";
+import { Preferences } from "@capacitor/preferences";
 
-const axios = axiosClient().get();
+const SESSION_KEY = "user-session";
 
-const getConfig = (
-  token: string,
-  params: any = {}
-): AxiosRequestConfig => {
-  return {
-    baseURL: `${process.env.NEXT_PUBLIC_BACKEND_URL}`,
-    headers: {
-      Authorization: token ? `Bearer ${token}` : "",
-    },
-    params,
+async function getToken() {
+  const { value } = await Preferences.get({ key: SESSION_KEY });
+  if (!value) return null;
+  const session = JSON.parse(value);
+  return session?.token || null;
+}
+
+export async function apiFetch(path: string, options: RequestInit = {}) {
+  const token = await getToken();
+
+  const headers = {
+    ...(options.headers || {}),
+    "Content-Type": "application/json",
+    ...(token ? { Authorization: `Bearer ${token}` } : {}),
   };
-};
 
-export const handleError = <T>(error: T, method: string, path: string) => {
-  const unit = `${method}:${path}`;
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}${path}`, {
+    ...options,
+    headers,
+  });
 
-  if (isAxiosError(error)) {
-    logger.error("api", unit, error.message);
-  } else {
-    logger.error("api", unit, error);
+  if (res.status === 401) {
+    // token inválido o expirado
+    await Preferences.remove({ key: SESSION_KEY });
+    window.location.href = "/signin"; // 🔄 redirige a login
+    throw new Error("Sesión expirada, por favor vuelve a iniciar sesión.");
   }
-};
 
-const apiClient = {
-  get: async (
-    path: string,
-    token: string,
-    params: any = {}
-  ) => {
-    try {
+  const data = await res.json().catch(() => null);
 
-      const config = getConfig(token, params);
-      const { data }: AxiosResponse = await axios.get(path, config);
-   
-      logger.log("api", `get:${path}`, "success");
+  if (!res.ok) {
+    throw new Error(data?.message || "Error en la API");
+  }
 
-      return data;
-    } catch (error) {
-      handleError(error, "get", path);
-      const { response }: any = error;
-      return {
-        notFound: true,
-        error: response.data.message,
-      };
-    }
-  },
-  post: async (
-    path: string,
-    token: string,
-    body?: any
-  ) => {
-    try {
-      const config = getConfig(token);
-      const { data }: AxiosResponse = await axios.post(path, body, config);
-
-      logger.log("api", `post:${path}`, "success");
-
-      return data.data;
-    } catch (error) {
-      handleError(error, "post", path);
-    }
-  },
-  put: async () => {
-    // @ToDo: implement axios path
-  },
-  delete: async () => {
-    // @ToDo: implement axios delete
-  },
-};
-
-export default apiClient;
+  return data;
+}

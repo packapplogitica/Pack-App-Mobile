@@ -61,7 +61,6 @@ const MyTripsList = ({ profile, token }) => {
     return <Loader visible></Loader>;
   }
 
-  console.log('los viajes',profile.trips)
   return (
     <>
       <Box mt={24} className={classes.box}>

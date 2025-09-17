@@ -9,6 +9,7 @@ import { signOut } from "next-auth/react";
 import { IconCheck } from "@tabler/icons-react";
 import { notifications } from "@mantine/notifications";
 import { ButtonPackApp } from "@/components/atoms/ButtonPackApp/ButtonPackApp";
+import { useSessionProvider } from "../../../context/SessionProvider";
 
 export const DropDownMenu = ({
   data,
@@ -20,6 +21,8 @@ export const DropDownMenu = ({
   const router = useRouter();
   const landingPage = router.pathname === "/nosotros";
   const { classes, cx } = useStyles({ landingPage });
+
+  const { logout } = useSessionProvider();
 
   const [opened, { toggle }] = useDisclosure(false);
 
@@ -49,10 +52,7 @@ export const DropDownMenu = ({
                     component="button"
                     className={classes.item}
                     onClick={() => {
-                      signOut({
-                        redirect: false,
-                        
-                      });
+                      logout();
 
                       notifications.show({
                         title: "Sesión cerrada",
@@ -104,9 +104,7 @@ export const DropDownMenu = ({
                   size="md"
                   // defaultRadius
                   onClick={() => {
-                    signOut({
-                      redirect: false,
-                    });
+                  logout()
 
                     notifications.show({
                       title: "Sesión cerrada",

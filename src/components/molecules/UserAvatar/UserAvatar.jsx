@@ -4,8 +4,8 @@ export const UserAvatar = ({ firstName, lastName }) => {
     const { classes } = useStyles();
     
     console.log('el nombre',firstName)
-    const firstLetter = 'b'
-    const secondLetter = 'j'
+    const firstLetter = firstName[0]
+    const secondLetter = lastName[0]
 
     return (
         <div className={classes.avatarContainer}>

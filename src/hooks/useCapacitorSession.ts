@@ -62,6 +62,7 @@ export function useCapacitorSession() {
 
   // Logout
   const logout = async () => {
+    console.log('entra en la funcion')
     await Preferences.remove({ key: SESSION_KEY });
     setSession(null);
   };

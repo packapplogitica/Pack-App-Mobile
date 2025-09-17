@@ -1,5 +1,6 @@
 import Head from "next/head";
-import AdminLogin from "@/components/admin/login";
+import AdminLogin from "../../components/admin/login";
+
 
 const Admin = () => {
   return (

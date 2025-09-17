@@ -2,29 +2,30 @@ import { HomePage } from "@/components/template";
 import WithAuth from "../components/WithAuth/WithAuth";
 import { useCapacitorSession } from "../hooks/useCapacitorSession";
 import useStaticData from "@/hooks/useStaticData";
-import apiClient from "@/utils/apiClient";
 // import { handleServerSideAuth } from "@/utils/serverSideHelpers/serverSideHelpers";
 import { getSession, signOut, useSession } from "next-auth/react";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import { useState } from "react";
+import { useApiMutation, useApiQuery } from "../utils/apiClient/reactQueryHooks";
 
 const Home = ({ data }) => {
   const { defaultData } = useStaticData();
 
-  // }
-  // const { user, loading } = useAuth();
+    const router = useRouter();
+  const { page, limit } = router.query;
 
+  console.log('los paramaetro',page,limit)
 
-  // if (loading) return <div>Cargando...</div>;
-  //   console.log('el lodign',user)
-  // // if (!user) {
-  //   router.push('/signin');
-  //   return null;
-  // }
+  // GET órdenes
+  const { data: orders, isLoading, error } = useApiQuery(
+    ["orders"],
+    `/orders/carrier?page=${page ?? 1}&limit=${limit ?? 50}`
+  );
 
-
-
+  console.log('las nuevas ordenes', orders)
+  // POST crear orden
+  const createOrder = useApiMutation("/orders/prueba", "POST");
 
   return (
     <>
@@ -34,11 +35,15 @@ const Home = ({ data }) => {
       <HomePage data={defaultData.homePage} packages={data} /> */}
 
       <WithAuth isHomePage>
-        <h1>Mis ofertas</h1>
+        <Head>
+          <title>PackApp Web</title>
+        </Head>
+        <HomePage data={defaultData.homePage} packages={orders} /> 
       </WithAuth>
     </>
   );
 };
+
 
 // export async function getServerSideProps(context) {
 
@@ -52,7 +57,7 @@ const Home = ({ data }) => {
 //       },
 //     };
 //   }
-//   const { page, limit } = context.query;
+
 
 //   let packages;
 

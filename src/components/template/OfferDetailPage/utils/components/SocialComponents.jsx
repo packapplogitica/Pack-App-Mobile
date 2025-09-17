@@ -7,7 +7,8 @@ import {
   Text,
   TextInput,
 } from "@mantine/core";
-import { UserAvatar } from "@/components/molecules/UserAvatar/UserAvatar";
+import { UserAvatar } from "../../../../molecules/UserAvatar/UserAvatar";
+// @/components/molecules/UserAvatar/UserAvatar
 import Link from "next/link";
 import { notifications } from "@mantine/notifications";
 import axios from "axios";

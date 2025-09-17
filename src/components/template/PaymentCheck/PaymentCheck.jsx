@@ -7,7 +7,7 @@ import { Flex } from "@mantine/core";
 
 
 export const PaymentCheck = ( {paymentStatus} ) => {
-    console.log('dentro',paymentStatus)
+
     const [params, setParams] = useState(null);
 
     useEffect(() => {

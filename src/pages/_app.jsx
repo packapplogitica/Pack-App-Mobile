@@ -21,8 +21,9 @@ export default function App({ Component, pageProps }) {
       <Providers>
         <QueryClientProvider client={queryClient}>
           {useLayout ? (
-             <SessionProvider>
+             <SessionProvider>            
               <Layout layout={defaultData.layout}>{content}</Layout>
+
              </SessionProvider>
           ) : (
             content

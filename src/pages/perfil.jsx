@@ -3,7 +3,6 @@ import useStaticData from "@/hooks/useStaticData";
 import { getSession, useSession } from "next-auth/react";
 import { useRouter } from "next/router";
 import Head from "next/head";
-import apiClient from "@/utils/apiClient";
 import { handleServerSideAuth } from "../utils/serverSideHelpers/serverSideHelpers";
 import WithAuth from "../components/WithAuth/WithAuth";
 

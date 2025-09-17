@@ -1,4 +1,3 @@
 export {
-  default,
-  handleError,
+  apiFetch
 } from "./apiClient";

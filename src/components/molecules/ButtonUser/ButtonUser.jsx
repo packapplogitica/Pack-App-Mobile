@@ -9,8 +9,7 @@ import { UserAvatar } from "../UserAvatar/UserAvatar";
 export const ButtonUser = ({ item, itemMobile ,session}) => {
 
   const { classes } = useStyles();
-
-  console.log('la seesison',session)
+console.log('la sessison',session)
 
   return (
     <DropDownMenu

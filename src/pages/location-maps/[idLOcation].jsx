@@ -11,26 +11,26 @@ const LocationMaps = ({ coords }) => {
   );
 };
 
-export async function getServerSideProps(context) {
-  const latEntrega = context.query.latEntrega
-  const lngEntrega = context.query.lngEntrega
-  const latDestino =context.query.latDestino
-  const longDestino =context.query.longDestino
+// export async function getServerSideProps(context) {
+//   const latEntrega = context.query.latEntrega
+//   const lngEntrega = context.query.lngEntrega
+//   const latDestino =context.query.latDestino
+//   const longDestino =context.query.longDestino
 
 
 
-  const coords = {
-    latEntrega,
-    lngEntrega,
-    latDestino,
-    longDestino
-  }
+//   const coords = {
+//     latEntrega,
+//     lngEntrega,
+//     latDestino,
+//     longDestino
+//   }
   
-  return {
-    props: {
-      coords,
-    },
-  };
-}
+//   return {
+//     props: {
+//       coords,
+//     },
+//   };
+// }
 
 export default LocationMaps;

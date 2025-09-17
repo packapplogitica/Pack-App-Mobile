@@ -80,7 +80,6 @@ export const ForgotPasswordForm = () => {
         { email }
       );
       if(fetchApi.status=== 200 || fetchApi.status === 201){
-        console.log('entra aca')
         setLoading(false)
         notifications.show({
           title: "Solicitud",

@@ -6,7 +6,6 @@ import {
 } from "@mantine/core";
 
  export  const TransportMethod = ({carrier,classes} ) => {
-    console.log('el carrier',carrier)
     if (carrier?.driverRegistrated && carrier?.vehicles?.length !== 0) {
       return (
         <Grid.Col md={6}>

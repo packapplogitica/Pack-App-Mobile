@@ -64,14 +64,14 @@ export default function WithAuth({ children, isHomePage = false }) {
 
     if (!session) {
       if (!isHomePage && router.pathname !== "/signin") {
-        router.replace("/signin");
+        router.push("/signin");
       }
       setChecking(false);
     } else if (
       !session.isRegistrationComplete &&
       router.pathname !== "/complete-registration"
     ) {
-      router.replace("/complete-registration");
+      router.push("/complete-registration");
     } else {
       setChecking(false);
     }

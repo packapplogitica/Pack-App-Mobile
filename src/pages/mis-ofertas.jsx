@@ -1,5 +1,5 @@
 import { OrderPage } from "@/components/template";
-import apiClient from "@/utils/apiClient";
+
 import Head from "next/head";
 
 const MisOfertasPage = () => {
@@ -15,7 +15,7 @@ const MisOfertasPage = () => {
       <Head>
         <title>Mis Ofertas | PackApp Web</title>
       </Head>
-      <OrderPage applications={data} />
+      {/* <OrderPage /> */}
     </>
   );
 };

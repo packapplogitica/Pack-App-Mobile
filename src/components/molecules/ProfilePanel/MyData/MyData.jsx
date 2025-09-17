@@ -186,9 +186,6 @@ export const MyData = ({ profile }) => {
       router.reload();
     }
   };
-
-  console.log(myDataForm.errors);
-  console.log(myDataForm.values.phone.length);
   return (
     <>
       <Box mt={24} className={classes.box}>

@@ -1,3 +1,4 @@
+import { useSessionProvider } from "../../../context/SessionProvider";
 import { theme } from "@/libs/theme";
 import { Button } from "@mantine/core";
 import { notifications } from "@mantine/notifications";
@@ -8,6 +9,7 @@ import { useRouter } from "next/router";
 
 export default function ButtonAuth() {
   const { data, status } = useSession();
+  const {logout} = useSessionProvider()
   const session =data.user
   const router = useRouter();
 
@@ -17,7 +19,7 @@ export default function ButtonAuth() {
         <Link href="/perfil">{session?.firstName}</Link>
         <Button
           onClick={() => {
-            signOut({
+            logout({
               redirect: false,
             });
             notifications.show({

@@ -1,23 +1,24 @@
 import Chekcout2 from "@/components/template/CheckOutPage/Chekcout2";
-import apiClient from "@/utils/apiClient";
-import { handleServerSideAuth } from "@/utils/serverSideHelpers/serverSideHelpers";
+// "import apiClient from ""@/utils/apiClient"""
+// import { handleServerSideAuth } from "@/utils/serverSideHelpers/serverSideHelpers";
 
-const CheckOutDetail = (application) => {
-  console.log(application.data)
+const CheckOutDetail = () => {
+  // console.log(application.data)/
   return (
     <>
-      <Chekcout2 application = {application?.data}/>
+    <h1>hola mundo</h1>
+      {/* <Chekcout2/> */}
     </>
   );
 };
 
-export async function getServerSideProps(context) {
+// export async function getServerSideProps(context) {
 
-  const idApplication = context.params.id
-  return handleServerSideAuth(context,null,async (token) => {
-    return await apiClient.get(`/application/${idApplication}`, token);
-  });
+//   const idApplication = context.params.id
+//   return handleServerSideAuth(context,null,async (token) => {
+//     return await apiClient.get(`/application/${idApplication}`, token);
+//   });
 
-}
+// }
 
 export default CheckOutDetail;

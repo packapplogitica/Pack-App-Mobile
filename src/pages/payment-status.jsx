@@ -1,5 +1,6 @@
 import { PaymentCheck } from "@/components/template";
-import apiClient from "@/utils/apiClient";
+import WithAuth from "../components/WithAuth/WithAuth";
+
 // import { handleServerSideAuth } from "@/utils/serverSideHelpers/serverSideHelpers";
 
 import { getSession } from "next-auth/react";
@@ -8,9 +9,9 @@ const PaymentStatus = (paymentStatus) => {
     console.log('la data', paymentStatus)
     return (
         <WithAuth>
-            <>
-                <PaymentCheck paymentStatus={paymentStatus.data.payment} />
-            </>
+            {/* <>
+                <PaymentCheck paymentStatus={paymentStatus?.data?.payment} />
+            </> */}
         </WithAuth>
     );
 };

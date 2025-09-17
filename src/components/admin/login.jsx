@@ -12,9 +12,9 @@ const AdminLogin = () => {
   const handleLogin = async (e) => {
     e.preventDefault();
     const result = await loginAdmin(authData);
-    console.log(authData)
+    // console.log(authData)
     if (result.success) {
-      console.log(result)
+      // console.log(result)
     } else {
       console.log(result.message || "Error al iniciar sesión");
     }

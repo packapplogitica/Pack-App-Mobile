@@ -36,7 +36,6 @@ const signup = async (user,token) => {
  */
 export const submitSignUpForm = async (params) => {
     params.setLoading(true);
-    console.log('el token',params)
     try {
         const userData = prepareUserData(params,params.user.current.email)
         const res = await signup(userData,params.user.token);

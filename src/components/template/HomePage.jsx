@@ -10,13 +10,13 @@ export const HomePage = ({ data, packages }) => {
     <>
       {/* <DirectAccess /> */}
       <Home />
-      {/* <OrderConfirmationSession
+      <OrderConfirmationSession
         sortedItems={data.sortedItems}
         categories={data.categories}
         packages={packages?.orders}
         total={packages?.total}
         selectedPackageId={paquete}
-      /> */}
+      />
     </>
   );
 };
