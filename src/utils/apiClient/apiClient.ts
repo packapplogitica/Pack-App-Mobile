@@ -32,9 +32,11 @@ export async function apiFetch(path: string, options: RequestInit = {}) {
 
   const data = await res.json().catch(() => null);
 
-  if (!res.ok) {
-    throw new Error(data?.message || "Error en la API");
-  }
+  console.log('la data desde api fetch',data)
+
+  // if (!res.ok) {
+  //   throw new Error(data?.message || "Error en la API");
+  // }
 
   return data;
 }

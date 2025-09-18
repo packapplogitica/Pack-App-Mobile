@@ -10,6 +10,7 @@ import {
   Container,
   Flex,
   Grid,
+  Loader,
   Menu,
   Pagination,
   ScrollArea,
@@ -23,15 +24,33 @@ import { PaddingBox } from "@/components/atoms";
 import Icons from "@/icons";
 import { IconSearch } from "@tabler/icons-react";
 import { getFilteredAndSortedElements, renderRows } from "./components/renderRows";
+import { useApiQuery } from "../../../utils/apiClient/reactQueryHooks";
+// import { useSessionProvider } from "@/context/SessionProvider";
 
-export const PackPage = ({ orders }) => {
+export const PackPage = () => {
   const { classes, theme } = useStyles();
+  // const orders = []
+  // // const { login,session} = useSessionProvider()
+  const { data: orders, isLoading, error } = useApiQuery(
+    ["orders"],
+    `/orders/despachante`
+  );
+
+  //   console.log('mis ordenes',orders)
+
   const isMd = useMediaQuery("(min-width: 960px)");
   const [searchQuery, setSearchQuery] = useState("");
   const [orderCriteria, setOrderCriteria] = useState("De mayor a menor");
 
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 10;
+
+  if (  isLoading) return <Loader />
+  if (!orders) {
+    return <p>Cargando parámetros...</p>;
+  }
+
+
 
   const elementTH = [
     {
@@ -166,7 +185,7 @@ export const PackPage = ({ orders }) => {
                 <Box
                   w={"100%"}
                   mb={(() => {
-                    const renderedElements = getFilteredAndSortedElements({orders,searchQuery}).length;
+                    const renderedElements = getFilteredAndSortedElements({ orders, searchQuery }).length;
                     const baseMargin = 400;
                     const rowHeight = 50;
                     const calculatedMargin = baseMargin - (rowHeight * renderedElements);

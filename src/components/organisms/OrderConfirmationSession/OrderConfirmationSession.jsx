@@ -27,7 +27,8 @@ export const OrderConfirmationSession = ({
   categories,
   packages,
   total,
-  selectedPackageId
+  selectedPackageId,
+  session
 }) => {
   const [packs, setPacks] = useState([]);
   const [locationsInfo, setLocationsInfo] = useState([]);
@@ -235,6 +236,7 @@ export const OrderConfirmationSession = ({
               key={item.id} 
               item={item}
               initialOpenDetail={selectedPackageId === item.id.toString()} 
+              session={session}
             />
           ))}
         </Stack>

@@ -1,5 +1,5 @@
-import { OrderPage } from "@/components/template";
-
+import {OrderPage}  from "../components/template/OrderPage/OrderPage";
+import WithAuth  from "../components/WithAuth/WithAuth"
 import Head from "next/head";
 
 const MisOfertasPage = () => {
@@ -12,10 +12,12 @@ const MisOfertasPage = () => {
   // if (isError) return <p>Error: {error.message}</p>;
   return (
     <>
+    <WithAuth>
       <Head>
         <title>Mis Ofertas | PackApp Web</title>
       </Head>
-      {/* <OrderPage /> */}
+      <OrderPage />
+     </WithAuth>
     </>
   );
 };

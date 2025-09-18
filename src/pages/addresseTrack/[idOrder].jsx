@@ -1,10 +1,9 @@
 import { getSession } from "next-auth/react";
 import { useMemo } from "react";
 import Head from "next/head";
-import PackDetail from "@/components/template/PackDetail/PackDetail";
-
-const MiPaquete = ({ order }) => {
-  console.log(order)
+import PackDetail from "../../../src/components/template/PackDetail/PackDetail";
+// @/components/template/PackDetail/PackDetail
+const MiPaquete = () => {
   // const packageId = useMemo(() => order[0]?.id.toString(), [order]);
 
   return (
@@ -12,7 +11,7 @@ const MiPaquete = ({ order }) => {
       <Head>
         <title>{`Paquete`}</title>
       </Head>
-      {/* <PackDetail order={order} /> */}
+      <PackDetail />
     </>
   );
 };

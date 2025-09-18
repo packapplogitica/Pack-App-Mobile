@@ -1,8 +1,8 @@
-import OfferDetailPage from "@/components/template/OfferDetailPage/OfferDetailPage";
+import OfferDetailPage from "../../components/template/OfferDetailPage/OfferDetailPage";
 // import { handleServerSideAuth } from "@/utils/serverSideHelpers/serverSideHelpers";
 import Head from "next/head";
 import { useMemo } from "react";
-function OfferDetail({ data }) {
+function OfferDetail() {
   // console.log(existingApplication)
   // const orderId = useMemo(() => data.id.toString(), [data]);
   return (
@@ -10,7 +10,7 @@ function OfferDetail({ data }) {
       <Head>
         <title>{`Oferta `}</title>
       </Head>
-      {/* <OfferDetailPage existingApplication={data} /> */}
+      <OfferDetailPage/>
     </>
   );
 }

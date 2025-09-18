@@ -1,4 +1,4 @@
-import { Box, Container, Grid } from "@mantine/core";
+import { Box, Container, Grid, Loader } from "@mantine/core";
 import useStyles from "./packDetail.style";
 import { PaddingBox } from "@/components/atoms";
 import Link from "next/link";
@@ -9,15 +9,41 @@ import { useEffect, useState } from "react";
 import { useLoadScript } from "@react-google-maps/api";
 import calculateDistanceFromCoordinates from "@/components/organisms/GoogleDistanceCalculator/calculateDistanceCoordinates";
 import { calculatePrice } from "@/components/organisms/GoogleDistanceCalculator/calculatePrice";
-
+import { useApiQuery } from "../../../utils/apiClient/reactQueryHooks";
+// /utils/apiClient/reactQueryHooks
 const libraries = ["places"];
 
-export default function PackDetail({ order }) {
+export default function PackDetail() {
+
     const [price, setPrice] = useState(null); // State for the calculated price
     const { theme, classes } = useStyles();
 
     const router = useRouter();
+    const idOrder = router.query.idOrder;
+
+
+    // solo ejecuta el fetch si idOrder existe
+    const { data: order, isLoading, error } = useApiQuery(
+        ["order", idOrder],
+        `/orders/addresse/${idOrder}`,
+        {
+            enabled: !!idOrder, // <-- no ejecuta hasta que idOrder está definido
+        }
+    );
+
+    const { isLoaded } = useLoadScript({
+        googleMapsApiKey: "AIzaSyC-i1VPN6L1-zpJnNxsm5hR_-6u20BCig4", // Replace with your actual API key
+        libraries,
+    });
     const isAdressePage = router?.asPath?.includes("addresseTrack");
+    console.log('idOrder', order)
+
+    if (!idOrder) {
+        return <p>Cargando parámetros...</p>;
+    }
+    
+    if ((!router.isReady && isLoading) && isLoaded) return <Loader />
+    if (!order || order.length === 0) return <p>No se encontró la orden</p>;
 
     const coords = {
         latEntrega: order[0]?.latEntrega,
@@ -25,10 +51,7 @@ export default function PackDetail({ order }) {
         latDestino: order[0]?.latDestino,
         longDestino: order[0]?.longDestino,
     };
-    const { isLoaded } = useLoadScript({
-        googleMapsApiKey: "AIzaSyC-i1VPN6L1-zpJnNxsm5hR_-6u20BCig4", // Replace with your actual API key
-        libraries,
-    });
+
 
 
     const calculateVolume = (paquete) => {
@@ -47,7 +70,7 @@ export default function PackDetail({ order }) {
                 coords.latDestino,
                 coords.longDestino
             );
-            
+
             // Ensure packageType is available
             const packageType = order.package[0]?.clase; // Update this based on where the correct package type is stored
             const price = calculatePrice(
@@ -62,17 +85,17 @@ export default function PackDetail({ order }) {
         }
     };
 
-    useEffect(() => {
-        const fetchDistance = async () => {
-            if (isLoaded) {
-                console.log("CARGADO");
-                const result = await handleDistanceCalculation();
-                setPrice(result);
-            }
-        };
+    // useEffect(() => {
+    //     const fetchDistance = async () => {
+    //         if (isLoaded) {
+    //             console.log("CARGADO");
+    //             const result = await handleDistanceCalculation();
+    //             setPrice(result);
+    //         }
+    //     };
 
-        fetchDistance();
-    }, [isLoaded]);
+    //     fetchDistance();
+    // }, [isLoaded]);
     return (
         <Box className={classes.root}>
             <PaddingBox>

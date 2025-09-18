@@ -14,6 +14,8 @@ import RegisterVehiclePopUp from "../../RegisterVehiclePopUp/RegisterVehiclePopU
 import { submitApplication } from "./utils/applicationhelper";
 import { showNotification } from "@/components/organisms/ShowNotification/ShowNotification";
 import { TransportMethod } from "./components/TransportMethod";
+
+
 export const OrderForm = ({
   item,
   handleOfferModal,
@@ -21,14 +23,15 @@ export const OrderForm = ({
   setOpenOffer,
   type,
   price,
-  owner
+  owner,
+  session
 }) => {
   const [loading, setLoading] = useState(false);
   const { classes } = useStyles();
   const router = useRouter();
-  const { data } = useSession();
+  // const { data } = useSession();
   const [checkedCarrierTerms, setCheckedCarrierTerms] = useState(false);
-  const session = data;
+  // const session = data;
   const userData = session?.user;
   const token = session?.user?.token;
   const { emptyValidation, budgetValidation } = useFormValidation();
@@ -128,7 +131,7 @@ export const OrderForm = ({
     return <Loader visible />;
   }
 
-  if (!data?.user?.carrierContract || !data?.user?.dniCredentials) {
+  if (!session?.user?.profile?.carrierContract || !session?.user?.profile?.dniCredentials) {
     return (
       <Modal
         onClose={handleOfferModal}
@@ -139,7 +142,7 @@ export const OrderForm = ({
         size={"xl"}
         scrollAreaComponent={ScrollArea.Autosize}
       >
-        <RegisterVehiclePopUp user={data?.user}></RegisterVehiclePopUp>
+        <RegisterVehiclePopUp user={session?.user.profile}></RegisterVehiclePopUp>
       </Modal>
     );
   }
@@ -205,7 +208,7 @@ export const OrderForm = ({
           </Grid.Col>
           {/* Medio de Transporte */}
 
-          <TransportMethod carrier={data?.user} classes={classes} />
+          <TransportMethod carrier={session?.user} classes={classes} />
           
           {/* Precio */}
           <Grid.Col md={6}>

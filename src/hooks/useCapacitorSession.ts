@@ -36,7 +36,7 @@ export function useCapacitorSession() {
       const userSession = {
         token: data.user.token,
         email: data.user.email,
-        profile: data.user.profile,
+        user: data.user,
         isRegistrationComplete: data.user.isRegistrationComplete,
         registrationStep: data.user.registrationStep,
       };

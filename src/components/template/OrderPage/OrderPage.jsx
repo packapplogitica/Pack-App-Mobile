@@ -21,8 +21,10 @@ import Icons from "@/icons";
 import { IconSearch } from "@tabler/icons-react";
 import Loader from "@/components/molecules/Loader/Loader";
 import { getFilteredAndSortedElements, renderRows } from "./componentes/renderRows";
+import { useApiQuery } from "../../../utils/apiClient/reactQueryHooks";
+// @/utils/apiClient/reactQueryHooks"
 
-export const OrderPage = ({ applications }) => {
+export const OrderPage = ( ) => {
   const { classes, theme } = useStyles();
   const [loading, setLoading] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
@@ -31,7 +33,20 @@ export const OrderPage = ({ applications }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 10;
 
+    const { data: applications, isLoading, error } = useApiQuery(
+      ["applications"],
+      `/application/carrier`
+    );
+
+    console.log('las ofertas',applications)
   if (loading) return <Loader visible />
+
+    if (  isLoading) return <Loader />
+    if (!applications) {
+      return <p>Cargando parámetros...</p>;
+    }
+
+
   const elementTH = [
     {
       title: "Actions",

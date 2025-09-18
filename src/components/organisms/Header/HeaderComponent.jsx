@@ -74,7 +74,7 @@ export const HeaderComponent = ({ header,user}) => {
       {session ? (
         <List listStyleType="none" className={classes.secondaryLinks}>
           <List.Item>
-            <ButtonUser item={userItems} session={session.profile} />
+            <ButtonUser item={userItems} session={session.user} />
           </List.Item>
         </List>
       ) : (

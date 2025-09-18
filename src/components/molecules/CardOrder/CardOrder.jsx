@@ -1,9 +1,8 @@
 import { useState, useMemo, useEffect } from "react";
-import { useSession } from "next-auth/react";
 import NextImage from "next/image";
 
 import useStaticData from "@/hooks/useStaticData";
-import { useDate } from "@/hooks/useDate";
+import { useDate } from "../../../hooks/useDate";
 import { useWeigth } from "@/hooks/useWeigth";
 import useStyles from "./cardOrder.style";
 
@@ -21,15 +20,15 @@ import { useLoadScript } from "@react-google-maps/api";
 
 const libraries = ["places"];
 
-export const CardOrder = ({ item, initialOpenDetail = false }) => {
+export const CardOrder = ({ item, initialOpenDetail = false ,session}) => {
     const { isLoaded } = useLoadScript({
         googleMapsApiKey: "AIzaSyC-i1VPN6L1-zpJnNxsm5hR_-6u20BCig4", // Replace with your actual API key
         libraries,
     });
+    console.log('la session',session)
     const [price, setPrice] = useState(null); // State for the calculated price
 
     const despacahnte = item.despacahnte ?? item.preUser
-    const { data: session } = useSession();
 
     const [openDetail, setOpenDetail] = useState(initialOpenDetail);
     const [openOffer, setOpenOffer] = useState(false);
@@ -282,6 +281,7 @@ export const CardOrder = ({ item, initialOpenDetail = false }) => {
                 setOpenOffer={setOpenOffer}
                 type={measures}
                 price={price}
+                session={session}
             />
             {/* Modal Inicio de Sesion */}
             <ModalSession

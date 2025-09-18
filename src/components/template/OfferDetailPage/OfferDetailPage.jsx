@@ -12,10 +12,11 @@ import {
   Text,
   Title,
 } from "@mantine/core";
+// @/components/template/OfferDetailPage/LocationModal/LocationModal
 import { useMediaQuery } from "@mantine/hooks";
 import { PaddingBox, TooltipInfo } from "@/components/atoms";
 import { HeaderSection } from "@/components/atoms/HeaderSection/HeaderSection";
-import { LocationModal } from "@/components/template/OfferDetailPage/LocationModal/LocationModal";
+import { LocationModal } from "../../template/OfferDetailPage/LocationModal/LocationModal";
 import useStyles from "./offerDetailPage.style";
 import Icons from "@/icons";
 import {
@@ -26,21 +27,52 @@ import {
   IconMessage2Cancel,
   IconPhoneCall,
 } from "@tabler/icons-react";
-import { useDate } from "@/hooks/useDate";
+import { useDate } from "../../../hooks/useDate";
 import { useRouter } from "next/router";
 import { useSession } from "next-auth/react";
 import { CallButton, InfoUser, MenuState } from "./utils/components/SocialComponents";
+import { useApiQuery } from "../../../utils/apiClient/reactQueryHooks";
 
-export default function OfferDetailPage({ existingApplication }) {
+export default function OfferDetailPage() {
   const { fullDateFormatter } = useDate();
   const [loading, setLoading] = useState(false);
   const router = useRouter()
   const isAdressePage = router.asPath.includes('addresseTrack');
+  const idApplication = router.query.id;
+  const { classes, theme, cx } = useStyles();
+  //   const [state, setState] = useState(existingApplication.status);
+
+  const isSmallerThanMd = useMediaQuery(
+    `(max-width: ${theme.breakpoints.md}px)`
+  );
+  console.log(' el id de la order', router.query)
 
   const { data } = useSession()
-  const [openLocation, setOpenLocation] = useState(false);
 
-  const orderComing = existingApplication.order?.status === 'Entregado' || existingApplication.order?.status === 'En camino a destino' || existingApplication.order?.status === 'No se ha podido entregar' || existingApplication.order?.status === 'Paquete Cancelado'
+  const [openLocation, setOpenLocation] = useState(false);
+  // solo ejecuta el fetch si idOrder existe
+  const { data: existingApplication, isLoading, error } = useApiQuery(
+    ["application", idApplication],
+    `/application/carrier/${idApplication}`,
+    {
+      enabled: !!idApplication, // <-- no ejecuta hasta que idOrder está definido
+    }
+  );
+  console.log('la data', existingApplication)
+
+  // if (!isLoading || !existingApplication) {
+  //   return <p>Cargando parámetros...</p>;
+  // }
+
+  // if (!existingApplication) {
+  //   return <p>Cargando parámetros...</p>;
+  // }
+
+  if (!router.isReady) return <Loader />
+  if (!existingApplication || existingApplication.order.length === 0) return <Loader />;
+
+
+  const orderComing = existingApplication?.order?.status === 'Entregado' || existingApplication?.order?.status === 'En camino a destino' || existingApplication?.order?.status === 'No se ha podido entregar' || existingApplication?.order?.status === 'Paquete Cancelado'
   const notificationStylees = (theme) => ({
     root: {
       borderRadius: 8,
@@ -64,13 +96,9 @@ export default function OfferDetailPage({ existingApplication }) {
   });
 
 
-  const { classes, theme, cx } = useStyles();
 
-  //   const [state, setState] = useState(existingApplication.status);
 
-  const isSmallerThanMd = useMediaQuery(
-    `(max-width: ${theme.breakpoints.md}px)`
-  );
+
 
   if (loading) return <Loader visible />
   return (
@@ -152,7 +180,7 @@ export default function OfferDetailPage({ existingApplication }) {
                   <Flex gap={12} align="center">
                     <IconCircleCheckFilled className={classes.dateIcon} />
                     <Text className={classes.dateTitle}>
-                      En curso desde el {fullDateFormatter(existingApplication?.outDate?? existingApplication?.startDate)}
+                      En curso desde el {fullDateFormatter(existingApplication?.outDate ?? existingApplication?.startDate)}
                     </Text>
                   </Flex>
                 </Flex>
@@ -173,7 +201,7 @@ export default function OfferDetailPage({ existingApplication }) {
                       <IconPhoneCall className={classes.greyBoxIcon} />
                     </Box>
                     <CallButton
-                      status={existingApplication.order.status}
+                      status={existingApplication?.order.status}
                       existingApplication={existingApplication}
                       classes={classes}
                     />
@@ -314,7 +342,7 @@ export default function OfferDetailPage({ existingApplication }) {
           </Grid>
         </Container>
       </Box>
-      <LocationModal opened={openLocation} openClose={setOpenLocation} item={existingApplication.order} isTaken={true} />
+      <LocationModal opened={openLocation} openClose={setOpenLocation} item={existingApplication?.order} isTaken={true} />
     </>
   )
 }

@@ -137,18 +137,18 @@ export const LocationModal = ({ item, opened, isTaken, openClose }) => {
                 <Flex gap={3}>
                   {(
                     <Text weight={500}>
-                      {item.direccionEntrega ? item.direccionEntrega : null}{" "}
-                      {item.addressNumberOrigin
-                        ? item.addressNumberOrigin
+                      {item?.direccionEntrega ? item?.direccionEntrega : null}{" "}
+                      {item?.addressNumberOrigin
+                        ? item?.addressNumberOrigin
                         : "Sin número"}
-                      {item.pisoEntrega ? `, Piso: ${item.pisoEntrega}` : null}
-                      {item.dptoEntrega ? `, Dpto: ${item.dptoEntrega}` : null}
+                      {item?.pisoEntrega ? `, Piso: ${item?.pisoEntrega}` : null}
+                      {item?.dptoEntrega ? `, Dpto: ${item?.dptoEntrega}` : null}
                       {", "}
                     </Text>
 
                   )}
                   <Text weight={500}>
-                    {item.citySender}, {item.provinceSender}
+                    {item?.citySender}, {item?.provinceSender}
                   </Text>
                 </Flex>
               </Flex>
@@ -184,12 +184,12 @@ export const LocationModal = ({ item, opened, isTaken, openClose }) => {
                 <Flex gap={3}>
                   {isTaken && (
                     <Text weight={500}>
-                      {item.direccionDestino ? item.direccionDestino : null}{" "}
-                      {item.addressNumberDestination
-                        ? item.addressNumberDestination
+                      {item?.direccionDestino ? item?.direccionDestino : null}{" "}
+                      {item?.addressNumberDestination
+                        ? item?.addressNumberDestination
                         : "Sin número"}
-                      {item.pisoDestino ? `, Piso: ${item.pisoDestino}` : null}
-                      {item.dptoDestino ? `, Dpto: ${item.dptoDestino}` : null}
+                      {item?.pisoDestino ? `, Piso: ${item?.pisoDestino}` : null}
+                      {item?.dptoDestino ? `, Dpto: ${item?.dptoDestino}` : null}
                       {", "}
                     </Text>
                   )}

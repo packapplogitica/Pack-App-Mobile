@@ -23,9 +23,6 @@ const Home = ({ data }) => {
     `/orders/carrier?page=${page ?? 1}&limit=${limit ?? 50}`
   );
 
-  console.log('las nuevas ordenes', orders)
-  // POST crear orden
-  const createOrder = useApiMutation("/orders/prueba", "POST");
 
   return (
     <>

@@ -160,11 +160,11 @@ export const useDate = () => {
 
 
   const fullDateFormatter = (isoDateString) => {
-    const newDate = new Date(isoDateString);
-    const day = getDay(isoDateString)?.name;
-    const date = newDate.getDate()
-    const month = getMonth(isoDateString)?.name;
-    const year = newDate.getFullYear();
+    const newDate = new Date(isoDateString)?? '';
+    const day = getDay(isoDateString)?.name??'';
+    const date = newDate.getDate()??''
+    const month = getMonth(isoDateString)?.name??'';
+    const year = newDate.getFullYear()??'';
 
     return `${day}, ${date} de ${month.charAt(0).toUpperCase() + month.slice(1)} de ${year}`;
   }

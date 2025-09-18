@@ -9,7 +9,7 @@ import { notifications } from "@mantine/notifications";
 import { IconCheck } from "@tabler/icons-react";
 import { UserAvatar } from "../UserAvatar/UserAvatar";
 
-export const CardProfile = ({ profile, info, offers }) => {
+export const CardProfile = ({ user, info, offers }) => {
   const { classes, cx } = useStyles();
   // const user = data?.user;
   const router = useRouter();
@@ -19,14 +19,14 @@ export const CardProfile = ({ profile, info, offers }) => {
       <Stack spacing={theme.spacing.xs} justify="space-between">
         <Box>
           <UserAvatar
-            firstName={profile?.firstName}
-            lastName={profile?.lastName}
+            firstName={user.profile?.firstName}
+            lastName={user.profile?.lastName}
           />
         </Box>
         <Text className={classes.name}>
-          {profile?.firstName} {profile?.lastName}
+          {user.profile?.firstName} {user.profile?.lastName}
         </Text>
-        <Rating readOnly defaultValue={profile.rating} />
+        <Rating readOnly defaultValue={user.profile.rating} />
 
         <Divider my="tiny" />
       </Stack>

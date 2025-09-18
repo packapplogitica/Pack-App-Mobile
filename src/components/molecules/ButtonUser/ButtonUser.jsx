@@ -14,11 +14,11 @@ console.log('la sessison',session)
   return (
     <DropDownMenu
       data={item}
-      userName={session?.firstName}
+      userName={session?.profile.firstName}
       itemMobile={itemMobile}
     >
       <Flex align="center" gap={20} className={classes.root} p={10}>
-        {session?.firstName} {<UserAvatar firstName={session?.firstName} lastName={session?.lastName}/>}
+        {session?.profile.firstName} {<UserAvatar firstName={session?.profile.firstName} lastName={session?.profile.lastName}/>}
         {Icons.arrowRD}
       </Flex>
     </DropDownMenu>

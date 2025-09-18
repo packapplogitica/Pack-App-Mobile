@@ -1,15 +1,18 @@
 import Head from "next/head";
-// import { PackPage } from "@/components/template";
+import  {PackPage}  from "../../components/template/PackPage/PackPage";
 import { getSession } from "next-auth/react";
+import WithAuth from "../../components/WithAuth/WithAuth";
 // import { handleServerSideAuth } from "@/utils/serverSideHelpers/serverSideHelpers";
 
-const MisPaquetesPage = ({data}) => {
+const MisPaquetesPage = () => {
   return (
     <>
+    <WithAuth>
       <Head>
         <title>Mis Paquetes | PackApp Web</title>
       </Head>
-      {/* <PackPage orders={data}/> */}
+      <PackPage/>
+       </WithAuth>
     </>
   );
 };

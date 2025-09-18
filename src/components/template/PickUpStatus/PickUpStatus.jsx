@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import Loader from "@/components/molecules/Loader/Loader";
+// import Loader from "@/components/molecules/Loader/Loader";
 // import { Link } from "react-router-dom";
-import SuccessfulPurchase from "@/components/organisms/SuccessfulPurchase/SuccessfulPurchase";
-import FailedPurchase from "../../organisms/FailedPurchase/FailedPurchase";
-import { Flex } from "@mantine/core";
+// import SuccessfulPurchase from "@/components/organisms/SuccessfulPurchase/SuccessfulPurchase";
+// import FailedPurchase from "../../organisms/FailedPurchase/FailedPurchase";
+// import { Flex } from "@mantine/core";
 
 
 export const PickUpStatus = ( {data} ) => {
@@ -43,7 +43,7 @@ export const PickUpStatus = ( {data} ) => {
                     No has aceptado
                 </Flex>
             )} */}
-            <h2>{data.message.message ?? data.message}</h2>
+            <h2>{data?.message?.message ?? data.message}</h2>
         </>
     );
 };

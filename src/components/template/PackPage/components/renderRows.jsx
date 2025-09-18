@@ -5,7 +5,7 @@ import { useDate } from "@/hooks/useDate";
 
 export const getFilteredAndSortedElements = ({ orders, orderCriteria, currentPage, itemsPerPage, searchQuery }) => {
     // Aplicar búsqueda
-    const filteredElements = orders.filter(
+    const filteredElements = orders.length > 0?  orders?.filter(
         (element) =>
             element.id.toString().includes(searchQuery) ||
             element.nameAddressee
@@ -22,7 +22,7 @@ export const getFilteredAndSortedElements = ({ orders, orderCriteria, currentPag
                 .toLowerCase()
                 .includes(searchQuery.toLowerCase()) ||
             element.provinceSender.toLowerCase().includes(searchQuery.toLowerCase())
-    );
+    ): [];
 
     // Aplicar ordenación si hay un criterio definido
     let sortedElements = [...filteredElements];
