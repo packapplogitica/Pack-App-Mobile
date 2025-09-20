@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { Badge, } from "@mantine/core";
-import { useDate } from "@/hooks/useDate";
+import { useDate } from "../../../../hooks/useDate";
 
 export const getFilteredAndSortedElements = ({ orders, orderCriteria, currentPage, itemsPerPage, searchQuery }) => {
     // Aplicar búsqueda

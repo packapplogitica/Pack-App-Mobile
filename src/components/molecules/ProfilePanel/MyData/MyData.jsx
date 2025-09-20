@@ -26,8 +26,8 @@ import PhoneInput from "@/components/atoms/PhoneInput/PhoneInput";
 
 import CbuForm from "../CbuForm/CbuForm";
 
-export const MyData = ({ profile }) => {
-  // console.log('el profile',profile)
+export const MyData = ({ user }) => {
+  console.log('el profile',user)
   const { classes } = useStyles();
   const { data, update } = useSession();
   const router = useRouter();
@@ -45,8 +45,7 @@ export const MyData = ({ profile }) => {
 
   const userData = data?.user;
 
-  const { firstName, lastName, DNI, email, id, areaCode, phone, token } =
-    profile.current;
+  const { firstName, lastName, DNI, email, id, areaCode, phone, token } =user?.profile;
 
   const validateName = (value) => {
     if (emptyValidation(value)) return emptyValidation(value);
@@ -100,7 +99,7 @@ export const MyData = ({ profile }) => {
   // Email y nueva contraseña
   const passwordForm = useForm({
     initialValues: {
-      email: profile.email || "",
+      email: user.email || "",
       currentPassword: "",
       newPassword: "",
       confirmPassword: "",
@@ -340,7 +339,7 @@ export const MyData = ({ profile }) => {
         <Link href="/forgot-password" className={classes.link}>
           {"¿Has olvidado tu contraseña?"}
         </Link>
-          <CbuForm profile={profile} />
+          <CbuForm profile={user?.profile} />
       </Box>
     </>
   );

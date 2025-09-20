@@ -18,7 +18,7 @@ const Perfil = ({ data }) => {
         <Head>
           <title>Perfil | PackApp Web</title>
         </Head>
-        {session && <ProfilePage profile={data} info={defaultData.profilePage} />}
+         <ProfilePage info={defaultData.profilePage} />
       </WithAuth>
 
     </>

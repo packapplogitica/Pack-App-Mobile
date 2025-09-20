@@ -1,6 +1,6 @@
 import { HeroHome } from "@/components/organisms";
 import { MapsLocation } from "@/components/organisms/MapsLocation/MapsLocation";
-import PackDetail from "@/components/template/PackDetail/PackDetail";
+// import PackDetail from "@/components/template/PackDetail/PackDetail";
 import { getSession } from "next-auth/react";
 
 const LocationMaps = ({ coords }) => {

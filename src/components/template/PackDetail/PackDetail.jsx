@@ -3,7 +3,7 @@ import useStyles from "./packDetail.style";
 import { PaddingBox } from "@/components/atoms";
 import Link from "next/link";
 import Icons from "@/icons";
-import MyShipments from "@/components/organisms/MyShipments/MyShipments";
+import MyShipments from "../..//organisms/MyShipments/MyShipments";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import { useLoadScript } from "@react-google-maps/api";

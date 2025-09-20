@@ -20,11 +20,11 @@ export const CardProfile = ({ user, info, offers }) => {
         <Box>
           <UserAvatar
             firstName={user.profile?.firstName}
-            lastName={user.profile?.lastName}
+            lastName={user?.profile?.lastName}
           />
         </Box>
         <Text className={classes.name}>
-          {user.profile?.firstName} {user.profile?.lastName}
+          {user?.profile?.firstName} {user?.profile?.lastName}
         </Text>
         <Rating readOnly defaultValue={user.profile.rating} />
 

@@ -8,7 +8,8 @@ import MyVehicles from "../MyVehicles/MyVehicles";
 import { useRouter } from "next/router";
 import { useEffect, useCallback, useState } from "react";
 
-export default function ProfilePanel({profile}) {
+export default function ProfilePanel({user}) {
+  console.log("desde el panel",user)
   const router = useRouter();
   const { tab } = router.query;
   const { classes } = useStyles();
@@ -17,17 +18,17 @@ export default function ProfilePanel({profile}) {
     {
       title: "Mis Datos",
       value: 1,
-      component: <MyData profile={profile} />
+      component: <MyData user={user} />
     },
     {
       title: "Quiero Transportar",
       value: 2,
-      component: <MyTransportation  profile={profile} />
+      component: <MyTransportation  profile={user?.profile} />
     },
     {
       title: "Mis Viajes",
       value: 3,
-      component: <MyTrips profile={profile}/>
+      component: <MyTrips profile={user?.profile}/>
     },
     // {
     //   title: "Calendario",

@@ -1,9 +1,9 @@
 import { useMemo } from "react";
 import Head from "next/head";
-import PackDetail from "@/components/template/PackDetail/PackDetail";
+import PackDetail from "../../components/template/PackDetail/PackDetail";
 // import { handleServerSideAuth } from "@/utils/serverSideHelpers/serverSideHelpers";
 
-const MiPaquete = ( {data} ) => {
+const MiPaquete = ( ) => {
   // const packageId = useMemo(() => data[0]?.id.toString(), [data]);
 
   return (
@@ -11,7 +11,7 @@ const MiPaquete = ( {data} ) => {
       <Head>
         <title>{`Paquete`}</title>
       </Head>
-      {/* <PackDetail order={data} /> */}
+      <PackDetail  />
     </>
   );
 };

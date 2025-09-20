@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import useStyles from "./cardDetail.style";
-import { useDate } from "@/hooks/useDate";
+import { useDate } from "../../../../hooks/useDate";
 import { ButtonPackApp } from "@/components/atoms/ButtonPackApp/ButtonPackApp";
 import { MapsLocation } from "@/components/organisms/MapsLocation/MapsLocation";
 import {

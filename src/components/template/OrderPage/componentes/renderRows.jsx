@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import { Badge, } from "@mantine/core";
 import useStyles from "../orderPage.style";
 import { formatAmount } from "@/libs/utils";
-import { useDate } from "@/hooks/useDate";
+import { useDate } from "../../../../hooks/useDate";
 import { cancelOffer } from "../utils/orderActions";
 
 export const getFilteredAndSortedElements = ({ applications, orderCriteria, currentPage, itemsPerPage, searchQuery }) => {

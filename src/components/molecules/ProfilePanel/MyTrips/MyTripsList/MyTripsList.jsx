@@ -1,5 +1,5 @@
 import { Box, Card, Divider, Text, Title, Button, Grid } from "@mantine/core";
-import { useDate } from "@/hooks/useDate";
+import { useDate } from "../../../../../hooks/useDate";
 
 import useStyles from "./myTripsList.styles";
 import { notifications } from "@mantine/notifications";

@@ -2,7 +2,6 @@ import { HomePage } from "@/components/template";
 import WithAuth from "../components/WithAuth/WithAuth";
 import { useCapacitorSession } from "../hooks/useCapacitorSession";
 import useStaticData from "@/hooks/useStaticData";
-// import { handleServerSideAuth } from "@/utils/serverSideHelpers/serverSideHelpers";
 import { getSession, signOut, useSession } from "next-auth/react";
 import Head from "next/head";
 import { useRouter } from "next/router";

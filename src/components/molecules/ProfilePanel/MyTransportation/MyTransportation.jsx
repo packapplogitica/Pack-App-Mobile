@@ -6,8 +6,8 @@ export const MyTransportation = ({ profile }) => {
 
   return (
     <>
-      {profile.current.vehicles.length === 0 && <VehicleForm profile={profile?.current} token={profile?.token} />}
-      <MyVehicles vehicles={profile.current.vehicles} />
+      {profile.vehicles.length === 0 && <VehicleForm profile={profile} token={profile?.token} />}
+      <MyVehicles vehicles={profile.vehicles} />
     </>
   );
 };

@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 import { StepperPackApp } from "@/components/molecules";
 import { ButtonPackApp } from "@/components/atoms/ButtonPackApp/ButtonPackApp";
-import { CardDetail } from "@/components/molecules/CardOrder/CardDetail/CardDetail";
+import  CardDetail  from "../../molecules/CardOrder/CardDetail/CardDetail";
 import Loader from "@/components/molecules/Loader/Loader";
 import useStaticData from "@/hooks/useStaticData";
 import { useMediaQuery } from "@mantine/hooks";

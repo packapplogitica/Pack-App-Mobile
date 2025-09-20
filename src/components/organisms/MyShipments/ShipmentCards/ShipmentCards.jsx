@@ -14,7 +14,7 @@ import { formateCurrency } from "@/libs/utils";
 import axios from "axios";
 import { notifications } from "@mantine/notifications";
 import { getErrorMessage } from "@/utils/getError/getError";
-import { useDate } from "@/hooks/useDate";
+import { useDate } from "../../../../hooks/useDate";
 import { useRouter } from "next/router";
 
 // Función para manejar el envío de la calificación
